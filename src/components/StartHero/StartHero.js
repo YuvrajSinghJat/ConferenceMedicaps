@@ -5,12 +5,12 @@ import LoadingBar from 'react-top-loading-bar'
 import './StartHero.css';
 import countapi from "countapi-js";
 
-import home_carousel1 from '../../img/home_corousel1.JPG'
-import home_carousel2 from '../../img/home_corousel2.JPG'
-import home_carousel3 from '../../img/home_corousel3.JPG'
-import home_carousel4 from '../../img/home_corousel4.JPG'
-import home_carousel5 from '../../img/home_corousel5.JPG'
-import home_carousel9 from '../../img/home_corousel9.JPG'
+import home_carousel1 from '../../img/newImage1.jpg'
+import home_carousel2 from '../../img/newImage2.jpg'
+import home_carousel3 from '../../img/newImage3.jpg'
+import home_carousel4 from '../../img/newImage4.jpg'
+import home_carousel5 from '../../img/newImage5.jpg'
+import home_carousel9 from '../../img/newImage6.jpg'
 import home_carousel6 from '../../img/medicaps.jpg'
 import home_carousel7 from '../../img/medicaps_cse1.jpg'
 import home_carousel8 from '../../img/mdicaps_university1.jpg'
