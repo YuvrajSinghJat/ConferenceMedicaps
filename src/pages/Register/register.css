@@ -1,0 +1,33 @@
+    .registerTable tr {
+        height: 48px;
+        text-align: center;
+    }
+    .highlight1 {
+        border: 0.15rem solid black;
+        font-family: 'Kanit', sans-serif;
+        font-size: 1.20rem;
+        color: black;
+    }
+    .highlight{
+        color: red;
+        font-family: 'Kanit', sans-serif;
+        border: 0.15rem solid black;
+
+        font-size: 1.20rem;
+    }
+   
+    .registerTable td {
+        font-weight: 200;
+    }
+
+    @media screen and (max-width: 640px) {
+
+        .registerTable td,
+        .registerTable th {
+            font-size: 1rem;
+            font-family: 'Kanit', sans-serif;
+        }
+        .registerTable{
+            width: 100%;
+        }
+    }
