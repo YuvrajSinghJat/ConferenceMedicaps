@@ -34,6 +34,19 @@ const PaperSubmission = () => {
                         <h1 className='sm:text-4xl text-xl mb-4 font-black text-black bodyFont2'>GUIDELINES
                         </h1>
                         <h2>Guidelines updated soon on website</h2>
+
+                        Guidelines:
+IC-
+Manuscripts for EETA-2025 will ONLY be accepted in electronic format through cmt online submission system. Do not send hard-copy of your paper. Please submit the paper in format only. If you are unable to submit your contribution through cmt, please send your paper to
+Submit your manuscript as per the guidelinestt.
+1. Authors should only submit originally written, unpublished work.
+2. Submissions should strictly follow the recommended. conference template.
+3. All references must follow the. format of referencing.
+4. Please limit your paper within 6 pages, and the size of your PDF file less than 2MB, files larger than 2MB will not be accepted for upload
+Authors wishing to submit an over-length manuscript may do so. There will be an over-length page fee of INR 1500 per page and limited to an
+Xx
+additional 2 pages (maximum page submission is eight (8) pages). This payment will be required after conformation along with final submission
+
                         {/* <p className="leading-relaxed  mt-12 sm:text-xl font-semibold text-black text-sm text-justify">Manuscripts for IC4-2024 will ONLY be accepted in electronic format through <a href="https://cmt3.research.microsoft.com/IC42023" target='_blank'><span className='text-[#016698] underline hover:text-[#ff0000]'>CMT online submission system.</span></a> Do not send hard-copy of your paper. Please submit the paper in IEEE format only. If you are unable to submit your contribution through CMT. If you have any query you may contact to <span className='text-[#016698]'>ic4@medicaps.ac.in</span>
                             <br />
                             <br />

@@ -575,7 +575,7 @@ const HomePage = () => {
 
                         <div className="text-center lg:w-2/3 w-full">
                             <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">PAPER SUBMISSION</h1>
-                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"> </span></del><span className="text-[#ff0000]">Yet to announce</span>.</span> Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference. Original papers are invited in the following Tracks & papers may be submitted through <a href="" target='_blank'><span className='text-[#016698] underline hover:text-[#ff0000]'>Yet to announce</span></a> </p>
+                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"> </span></del><span className="text-[#ff0000]">May 30,2025</span>.</span> Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
                             <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
 
 
@@ -597,7 +597,7 @@ const HomePage = () => {
                                 <p className="title-font text-white mt-2 text-center">Full Paper Submission</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
                                     <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del></div>
-                                    <div><div className='text-[#ff0000]'></div></div>Yet to announce</h2>
+                                    <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
 
 
                             </div>
@@ -608,7 +608,7 @@ const HomePage = () => {
                                 <p className="title-font text-white mt-2 text-center">Acceptance Notification</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                     {/* <span className='text-sm block'> (For the paper recieved before 05 Dec)</span> */}
-                                </div> Yet to announce</h2>
+                                </div> June 30,2025</h2>
 
 
                             </div>
@@ -617,7 +617,7 @@ const HomePage = () => {
                                     <i className="fa-solid fa-cloud-arrow-up  fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div> Yet to announce</h2>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div> July 31,2025</h2>
 
                             </div>
                         </Slide>
@@ -652,7 +652,7 @@ const HomePage = () => {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
-                                        <div><div className='text-[#ff0000]'></div></div>Yet to announce</h2>
+                                        <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
 
                                 </div>
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -662,7 +662,7 @@ const HomePage = () => {
                                     <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                         {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
-                                    </div> Yet to announce</h2>
+                                    </div>June 30,2025</h2>
 
 
                                 </div>
@@ -673,7 +673,7 @@ const HomePage = () => {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[
-                                                                #ff0000]'></div> Yet to announce</h2>
+                                                                #ff0000]'></div>  July 31,2025</h2>
 
                                 </div>
 

@@ -36,6 +36,18 @@ const Venue = () => {
 
                             e-mail:  <span className='text-[#016698]'>iceeta2025@medicaps.ac.in</span>
                         </p>
+
+                        <p className="leading-relaxed sm:text-[1.3rem] sm:mt-12 text-sm font-bold text-black text-center">
+                        TUNKU ABDUL RAHMAN UNIVERSITY OF MANAGEMENT AND TECHNOLOGY
+                            <br />
+                            Jalan Genting Kelang, Setapak,53300 Kuala Lumpur.
+
+                            <span className='text-[#016698] mx-2'>
+                                (6)03-41450123
+                            </span>
+
+                            e-mail:  <span className='text-[#016698]'>info@tarc.edu.my</span>
+                            </p>
                     </div>
                     <section className="text-gray-600 body-font relative">
                         <div className="container py-8 mx-auto ">

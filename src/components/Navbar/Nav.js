@@ -11,6 +11,7 @@ import ieeeLogo2 from '../../img/ieeelogo2.png'
 import Zoom from 'react-reveal/Zoom';
 import { Slide } from 'react-reveal';
 import downloadBrochure from '../../img/iceeta.pdf'
+import tarmutLogo from '../../img/tarumt-logo.png'
 const Nav = (props) => {
     let location = useLocation();
     useEffect(() => {
@@ -20,7 +21,7 @@ const Nav = (props) => {
         { name: "ABOUT CONFERENCE ", link: "/" },
         { name: "ABOUT UNIVERSITY", link: "/aboutMedicaps" },
         { name: "PROGRAM COMMITTEE", link: "/programeComitte" },
-        { name: "PAPER SUBMISSION", link: "/paperSubmission" },
+        // { name: "PAPER SUBMISSION", link: "/paperSubmission" },
         { name: "ACCEPTED PAPERS", link: "/acceptedPapers" },
         { name: "VENUE", link: "/venue" },
         { name: "CONTACT US", link: "/contactUs" },
@@ -44,7 +45,7 @@ const Nav = (props) => {
                     <div className='font-bold text-2xl cursor-pointer flex items-center text-gray-800'>
                         <a className="flex title-font font-medium items-center text-gray-900 lg:mb-4 md:mb-0">
                             <img className='medicapsLogo lg:mt-4' src={medicapsLogo} alt="" />
-                            <img className='dispNone2 ' src={medicapsLogo} alt="" width={100} />
+                            <img className='dispNone2 ' src={tarmutLogo} alt="" width={100} />
                             {/* <Link to="/">
                                 <p className="text-[2.5rem] text-[#016698] bodyFont2">IC4-2024</p>
                             </Link> */}
@@ -53,16 +54,16 @@ const Nav = (props) => {
                 </div>
                 <Zoom>
                     <div className="w-full block flex-grow justify-center lg:flex lg:items-center lg:w-auto">
-                        <p className="dispNone1 text-center sm:w-auto sm:text-[3.25rem] sm:font-black text-[#016698] font-bold startHeading12 supHeading  mt-4">International Conference on Emerging <br></br>Engineering Technologies and Applications<br></br>(IC-EETA’25)<span className='text-[1.25rem] '><br></br>November 6-8, 2025</span>
+                        <p className="dispNone1 text-center sm:w-auto sm:text-[3.25rem] sm:font-black text-[#016698] font-bold startHeading12 supHeading  mt-4">IEEE International Conference on Emerging <br></br>Engineering Technologies and Applications<br></br>(IC-EETA’25)<span className='text-[1.25rem] '><br></br>November 6-8, 2025</span>
                         </p>
-                        <p className="dispNone2 text-center sm:w-auto sm:text-[3.25rem] sm:font-black text-[#016698] font-bold startHeading12 supHeading  mt-1 mx-2">International Conference on Emerging <br></br> Engineering Technologies <br></br> and Applications (IC-EETA’25)<br /><span className='text-[0.7rem] '>November 6-8, 2025</span>
+                        <p className="dispNone2 text-center sm:w-auto sm:text-[3.25rem] sm:font-black text-[#016698] font-bold startHeading12 supHeading  mt-1 mx-2">IEEE International Conference on Emerging <br></br> Engineering Technologies <br></br> and Applications (IC-EETA’25)<br /><span className='text-[0.7rem] '>November 6-8, 2025</span>
                         </p>
 
                     </div>
                 </Zoom>
                 <div className="flex items-center">
                     <span className='w-4/5  md:ml-16 md:my-0 hover:text-white text-base duration-500 font-bold md:w-full sm:text-gray-400 respCss nav-link1 dispNone1'>
-                        <img src={medicaps25} alt="" width={170} />
+                        <img src={tarmutLogo} alt="" width={170} />
                     </span>
                 </div>
 
