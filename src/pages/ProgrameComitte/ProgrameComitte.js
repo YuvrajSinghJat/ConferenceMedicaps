@@ -316,6 +316,28 @@ const ProgrameComitte = () => {
         "Xiao-Zhi Gao Professor at University of Eastern Finland University of Eastern Finland Finland",
         "Dr. Sunil Luthra Director, Training and Learning Bureau, All India Council of Technical Education (Ministry of Education) All India Council for Technical Education (AICTE) New Delhi, Delhi, India"
     ];
+
+    const advisoryCommittee = [
+        "Assoc. Prof. Ts. Dr Lim Li Li",
+        "Prof. Ts. Dr Yip Mum Wai",
+        "Assoc. Prof. Ir. Lim Joo Eng"
+    ]
+
+    const technicalReviewerTeam = [
+        "Ir. Ts. Dr Sara Lee Kit Yee (ME)",
+        "Dr Ho Shuh Huey (ME)",
+        "Dr Intan Fatihah Binti Ahmad (ME)",
+        "Ts. Dr Lee Yoon Ket (robotic)",
+        "Assoc. Prof. Ir. Dr Chuah Yea Dat (robotic)",
+        "Dr Yeo Kwok Shien (EE)",
+        "Assoc. Prof. Ir. Dr Goh Kam Meng (EE)",
+        "Ir. Ts. Dr Hong Kai Sze (EE)",
+        "Ir. Ts. Dr Tan Xiao Jian (EE)",
+        "Ts. Gunalaan A/L Vasudevan (CE)",
+        "Dr Shantha Kumari A/P Muniyandi (CE)",
+        "Ts. Dr Tan Tee How (CE)"
+    ]
+
     const coconvener = [ "Prof. Kailash Chandra Bandhu"];
     const cosecretary = [ "Prof. Latika Jindal"];
     const doMyTask = (word) => {
@@ -399,13 +421,7 @@ const ProgrameComitte = () => {
                                     </p>
 
                                 ))}
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Anchoring Committee</p>
-                                {anchoringCommittee.map((element) => (
-                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
-                                        <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
-                                    </p>
 
-                                ))}
                                 <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Keynote Speaker Committee</p>
                                 {keynoteSpeakerCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
@@ -436,6 +452,14 @@ const ProgrameComitte = () => {
                                 ))}
                                 
                                 
+
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Technical Reviewer Team</p>
+                                {technicalReviewerTeam.map((element) => (
+                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
+                                        <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
+                                    </p>
+
+                                ))}
                                 
                             </div> 
 
@@ -531,8 +555,24 @@ const ProgrameComitte = () => {
                                     </p>
 
                                 ))}
+
                                 <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Volunteers Committee</p>
                                 {volunteersCommittee.map((element) => (
+                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
+                                        <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
+                                    </p>      
+                                ))}
+
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Anchoring Committee</p>
+                                {anchoringCommittee.map((element) => (
+                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
+                                        <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
+                                    </p>
+
+                                ))}
+
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Advisory Committee</p>
+                                {advisoryCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>

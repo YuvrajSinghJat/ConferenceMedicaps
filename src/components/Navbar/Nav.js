@@ -22,7 +22,7 @@ const Nav = (props) => {
         { name: "ABOUT UNIVERSITY", link: "/aboutMedicaps" },
         { name: "PROGRAM COMMITTEE", link: "/programeComitte" },
         // { name: "PAPER SUBMISSION", link: "/paperSubmission" },
-        { name: "ACCEPTED PAPERS", link: "/acceptedPapers" },
+        { name: "PAPER GUIDELINES", link: "/acceptedPapers" },
         { name: "VENUE", link: "/venue" },
         { name: "CONTACT US", link: "/contactUs" },
         { name: "TOPICS", link: "/topics" },

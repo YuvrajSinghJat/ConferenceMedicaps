@@ -37,6 +37,9 @@ import speaker1 from '../../img/speaker1.jpg'
 import speaker2 from '../../img/speaker2.jpg'
 import speaker3 from '../../img/speaker3.jpg'
 import speaker4 from '../../img/speaker4.jpg'
+import keyNoteSpeakers8 from "../../img/keyNoteSpeakers8.jpg"
+import keyNoteSpeakers9 from "../../img/keyNoteSpeakers9.jpg"
+import keyNoteSpeakers10 from "../../img/keyNoteSpeakers10.jpg"
 
 const HomePage = () => {
     const [progress, setProgress] = useState(100);
@@ -102,7 +105,7 @@ const HomePage = () => {
                                     <div className="rounded-lg h-36 overflow-hidden iconclr ">
                                         <i className="fa-solid fa-newspaper fa-8x iconclr"></i>
                                     </div>
-                                    <h2 className="text-2xl font-extrabold text-white mt-2 text-center bodyFont">Accepted Papers</h2>
+                                    <h2 className="text-2xl font-extrabold text-white mt-2 text-center bodyFont">Paper Guidelines</h2>
 
                                     <p className="title-font text-white mt-2 text-center">More Details ➜</p>
                                 </Link>
@@ -143,7 +146,7 @@ const HomePage = () => {
                                     <div className="rounded-lg sm:h-36 overflow-hidden iconclr ">
                                         <i className="fa-solid fa-newspaper sm:fa-8x fa-4x iconclr"></i>
                                     </div>
-                                    <h2 className="text-sm font-semibold text-white mt-2 text-center bodyFont">Accepted Papers</h2>
+                                    <h2 className="text-sm font-semibold text-white mt-2 text-center bodyFont">Paper Guidelines</h2>
 
                                     <p className="text-sm title-font text-white mt-2 text-center">More Details ➜</p>
                                 </Link>
@@ -294,12 +297,12 @@ const HomePage = () => {
 
 
 
-            <section className="text-gray-600 body-font">
+            {/* <section className="text-gray-600 body-font">
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-12">
                         <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">CHIEF GUEST, INAUGURATION </h1>
                         <h2><b>Yet to Declare</b></h2>
-                    </div>
+                    </div> */}
                     {/* <div className="flex flex-wrap -m-4 w-full">
                         <div className="p-4 lg:w-1/3 md:w-1/2 mx-auto">
                             <div className="h-full flex flex-col items-center text-center">
@@ -311,8 +314,8 @@ const HomePage = () => {
                             </div>
                         </div>
                     </div> */}
-                </div>
-            </section>
+                {/* </div>
+            </section> */}
             
 
 
@@ -385,48 +388,43 @@ const HomePage = () => {
                             </div>
                         </div>
                         {/* FIFTH  */}
-                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers3} />
+                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers8} />
                                 <div className="w-full">
-                                    <h2 className="title-font font-medium text-lg text-black">Dr. Sudeep Tanwar</h2>
-                                    <div><p>Professor
-                                        Nirma University, Gujarat
+                                    <h2 className="title-font font-medium text-lg text-black">Prof. Ts. Dr Lai Weng Kin</h2>
+                                    <div><p>Chair of Centre for Multimodal Signal Processing 
                                     </p></div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                         
                         {/* SIXTH  */}
-                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers2} />
+                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers9} />
                                 <div className="w-full">
-                                    <h2 className="title-font font-medium text-lg text-black">Dr. Deshinta Arrova Dewi</h2>
-                                    <div><p>Associate Professor
-                                        INTI International University, Nilai, Malaysia
+                                    <h2 className="title-font font-medium text-lg text-black">Prof. Ts. Dr Yip Mum Wai</h2>
+                                    <div><p>Chair of Centre for Systematic Innovation Research 
 
                                     </p></div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                         
 
 
                         {/* SEVENTH */}
-                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
+                        <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers7} />
+                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers10} />
                                 <div className="w-full">
-                                    <h2 className="title-font font-medium text-lg text-black">Dr. Tri Basuki Kurniawan</h2>
-                                    <div><p>Associate Professor,
-                                        University of Bina Darma (UBD), Palembang, Indonesia
-                                        Universiti Kebangsaan Malaysia (UKM), Bangi, Malaysia
-
+                                    <h2 className="title-font font-medium text-lg text-black">Ts. Dr Tan Tee How </h2>
+                                    <div><p>
                                     </p></div>
-                                </div> */}
-                            {/* </div>
-                        </div> */}
+                                </div>
+                            </div>
+                        </div>
                         {/* <div className="p-4 lg:w-1/4 md:w-1/2">
                                                 <div className="h-full flex flex-col items-center text-center">
                                                     <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200/cccccc/000000.png&text=++UPDATED+SOON" />
@@ -629,7 +627,7 @@ const HomePage = () => {
                                     <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Early Bird Registration</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">Yet to announce</h2>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">July 15, 2025</h2>
 
                             </div>
                             <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
@@ -672,8 +670,8 @@ const HomePage = () => {
                                         <i className="fa-solid fa-cloud-arrow-up fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
-                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[
-                                                                #ff0000]'></div>  July 31,2025</h2>
+                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[     
+                                  #ff0000]'></div>  July 31,2025</h2>
 
                                 </div>
 
@@ -683,7 +681,7 @@ const HomePage = () => {
                                         <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Early Bird Registration</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">Yet to announce</h2>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">July 15, 2025</h2>
 
                                 </div>
 

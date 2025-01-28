@@ -53,7 +53,7 @@ function Register() {
                                     <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Early Bird Registration</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">Yet to announce</h2>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">July 15, 2025</h2>
 
                             </div>
                             <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
@@ -86,7 +86,7 @@ function Register() {
                                     <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>June 30,2025
                                         {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
-                                    </div> Yet to announce</h2>
+                                    </div> July 15, 2025</h2>
 
 
                                 </div>
@@ -107,7 +107,7 @@ function Register() {
                                         <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Early Bird Registration</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">Yet to announce</h2>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">July 15, 2025</h2>
 
                                 </div>
 
@@ -140,7 +140,7 @@ function Register() {
                         </div>
                         <div className="container mt-12">
                         <div className="flex items-center mb-3 mr-8 justify-center" >
-                        <h2 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Early Bird Offer</h2>
+                        <h2 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Charges before July 15, 2025</h2>
                         </div>
                         <br></br>
 
@@ -192,7 +192,7 @@ function Register() {
 
 
                             <div className="flex items-center mb-3 mr-8 justify-center" >
-                        <h2 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Charges after Early Bird Offer</h2>
+                        <h2 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Charges after July 15, 2025</h2>
                         </div>
                         <br></br>
 
@@ -238,9 +238,9 @@ function Register() {
 
 
                             <div className="flex justify-center mt-8">
-                                <a href="" target='_blank'>
+                                {/* <a href="/register" target='_blank'> */}
                                     <button className="inline-flex uppercase text-white py-2 px-6  border-2 focus:outline-none rounded-lg text-md  font-medium bg-[#016698] hover:bg-white hover:text-[#016698] hover:border-2 hover:border-[#016698] hover:shadow-lg transition duration-150 ease-in-out ">Register Here</button>
-                                </a>
+                                {/* </a> */}
                             </div>
                         </div>
                     </div>
