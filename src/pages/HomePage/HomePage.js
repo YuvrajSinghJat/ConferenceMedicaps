@@ -72,101 +72,129 @@ const HomePage = () => {
             
 
             <section className="text-gray-600 body-font mt-4">
-
+<br></br>
 
             <h1 className="text-2xl text-black mt-2 text-center bodyFont">IEEE Application Number : 66496</h1>
+            <br></br>
+            {/*Sixth Section*/}
+            <section className="text-gray-600 body-font" id="impDates" >
+                <div className="container px-5 py-12 mx-auto bg-[#016698]">
 
-                <div className="container py-12 mx-auto bg-[#016698] ">
-                
-                    {/* <div className="text-center mb-12">
-                                                        <h1 className="sm:text-6xl sm:font-black text-3xl text-[#00033D] font-medium bodyFont2">Details Of Conference</h1>
+                    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp1">
 
-
-                                                    </div> */}
-                                                    
-                    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp1 ">
                         <Slide left>
-                            <div className="p-4 md:w-1/3 sm:mb-0">
-                                <Link to="/programeComitte">
-                                    <div className="rounded-lg h-36 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-user-large fa-8x iconclr"></i>
-                                    </div>
-                                    
-                                    <h2 className="text-2xl text-white mt-2 text-center bodyFont">Program Committe</h2>
+                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
+                                <div className="rounded-lg h-auto overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-hourglass-end fa-4x iconclr"></i>
+                                </div>
+                                <p className="title-font text-white mt-2 text-center">Full Paper Submission</p>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
+                                    <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del></div>
+                                    <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
 
-                                    <p className="title-font text-white mt-2 text-center">More Details ➜</p>
 
-                                </Link>
+                            </div>
+                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
+                                <div className="rounded-lg h-auto overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-bell fa-4x iconclr"></i>
+                                </div>
+                                <p className="title-font text-white mt-2 text-center">Acceptance Notification</p>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
+                                    {/* <span className='text-sm block'> (For the paper recieved before 05 Dec)</span> */}
+                                </div> June 30,2025</h2>
+
+
+                            </div>
+                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
+                                <div className="rounded-lg h-auto overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-cloud-arrow-up  fa-4x iconclr"></i>
+                                </div>
+                                <p className="title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div> July 31,2025</h2>
+
                             </div>
                         </Slide>
-                        <Zoom>
-                            <div className="p-4 md:w-1/3 sm:mb-0">
-                                <Link to="/acceptedPapers">
-                                    <div className="rounded-lg h-36 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-newspaper fa-8x iconclr"></i>
-                                    </div>
-                                    <h2 className="text-2xl font-extrabold text-white mt-2 text-center bodyFont">Paper Guidelines</h2>
 
-                                    <p className="title-font text-white mt-2 text-center">More Details ➜</p>
-                                </Link>
-                            </div>
-                        </Zoom>
                         <Slide right>
-                            <div className="p-4 md:w-1/3 sm:mb-0">
-                                <Link to="/venue">
-                                    <div className="rounded-lg h-36 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-location-pin fa-8x iconclr"></i>
-                                    </div>
-                                    <h2 className="text-2xl font-extrabold text-white mt-2 text-center bodyFont mx-32">Venue</h2>
-                                    <p className="title-font text-white mt-2 text-center">More Details ➜</p>
-                                </Link>
+
+                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
+                                <div className="rounded-lg h-auto overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-id-card fa-4x iconclr"></i>
+                                </div>
+                                <p className="title-font text-white mt-2 text-center">Early Bird Registration</p>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">July 15, 2025</h2>
+
+                            </div>
+                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
+                                <div className="rounded-lg h-auto overflow-hidden iconclr">
+                                    <i className="fa-solid fa-chalkboard-user  fa-4x iconclr"></i>
+                                </div>
+                                <p className="title-font text-white mt-2 text-center">Conference Date</p>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">November 6-8, 2025</h2>-
+
                             </div>
                         </Slide>
+
                     </div>
-
-                    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp2">
-                        <Slide left>
-
-                            <div className="p-4 md:w-1/3 sm:mb-0">
-                                <Link to="/programeComitte">
-                                    <div className="rounded-lg sm:h-36 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-user-large sm:fa-8x fa-4x iconclr"></i>
+                    <section id="impDates">
+                        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp2">
+                            <Slide left>
+                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
+                                        <i className="fa-solid fa-hourglass-end fa-4x iconclr"></i>
                                     </div>
-                                    <h2 className="text-sm font-medium text-white mt-2 text-center bodyFont">Program Committe</h2>
+                                    <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
+                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
+                                        <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
 
-                                    <p className="text-sm title-font text-white mt-2 text-center">More Details ➜</p>
-
-                                </Link>
-                            </div>
-                        </Slide>
-                        <Zoom>
-
-                            <div className="p-4 md:w-1/3 sm:mb-0">
-                                <Link to="/acceptedPapers">
-                                    <div className="rounded-lg sm:h-36 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-newspaper sm:fa-8x fa-4x iconclr"></i>
+                                </div>
+                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
+                                        <i className="fa-solid fa-bell fa-4x iconclr"></i>
                                     </div>
-                                    <h2 className="text-sm font-semibold text-white mt-2 text-center bodyFont">Paper Guidelines</h2>
+                                    <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
+                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
+                                        {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
+                                    </div>June 30,2025</h2>
 
-                                    <p className="text-sm title-font text-white mt-2 text-center">More Details ➜</p>
-                                </Link>
-                            </div>
-                        </Zoom>
-                        <Slide left>
 
-                            <div className="p-4 md:w-1/3 sm:mb-0">
-                                <Link to="/venue">
-                                    <div className="rounded-lg sm:h-36 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-location-pin sm:fa-8x fa-4x iconclr"></i>
+                                </div>
+
+                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
+                                        <i className="fa-solid fa-cloud-arrow-up fa-4x iconclr"></i>
                                     </div>
-                                    <h2 className="text-sm font-semibold text-white mt-2 text-center bodyFont mx-32">Venue</h2>
-                                    <p className="text-sm title-font text-white mt-2 text-center">More Details ➜</p>
-                                </Link>
-                            </div>
-                        </Slide>
-                    </div>
+                                    <p className="text-sm title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
+                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[     
+                                  #ff0000]'></div>  July 31,2025</h2>
 
+                                </div>
+
+
+                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
+                                        <i className="fa-solid fa-id-card fa-4x iconclr"></i>
+                                    </div>
+                                    <p className="text-sm title-font text-white mt-2 text-center">Early Bird Registration</p>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">July 15, 2025</h2>
+
+                                </div>
+
+                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
+                                        <i className="fa-solid fa-chalkboard-user fa-4x iconclr"></i>
+                                    </div>
+                                    <p className="text-sm title-font text-white mt-2 text-center">Conference Date</p>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">November 6-8, 2025</h2>
+
+                                </div>
+                            </Slide>
+                        </div>
+                    </section>
                 </div>
+            </section >
+            <br></br>
+
             </section>
 
 
@@ -197,7 +225,97 @@ const HomePage = () => {
                 </div>
             </section>
 
+            <div className="container py-12 mx-auto bg-[#016698] ">
+                
+                {/* <div className="text-center mb-12">
+                                                    <h1 className="sm:text-6xl sm:font-black text-3xl text-[#00033D] font-medium bodyFont2">Details Of Conference</h1>
 
+
+                                                </div> */}
+                                                
+                <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp1 ">
+                    <Slide left>
+                        <div className="p-4 md:w-1/3 sm:mb-0">
+                            <Link to="/programeComitte">
+                                <div className="rounded-lg h-36 overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-user-large fa-8x iconclr"></i>
+                                </div>
+                                
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">Program Committe</h2>
+
+                                <p className="title-font text-white mt-2 text-center">More Details ➜</p>
+
+                            </Link>
+                        </div>
+                    </Slide>
+                    <Zoom>
+                        <div className="p-4 md:w-1/3 sm:mb-0">
+                            <Link to="/acceptedPapers">
+                                <div className="rounded-lg h-36 overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-newspaper fa-8x iconclr"></i>
+                                </div>
+                                <h2 className="text-2xl font-extrabold text-white mt-2 text-center bodyFont">Paper Guidelines</h2>
+
+                                <p className="title-font text-white mt-2 text-center">More Details ➜</p>
+                            </Link>
+                        </div>
+                    </Zoom>
+                    <Slide right>
+                        <div className="p-4 md:w-1/3 sm:mb-0">
+                            <Link to="/venue">
+                                <div className="rounded-lg h-36 overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-location-pin fa-8x iconclr"></i>
+                                </div>
+                                <h2 className="text-2xl font-extrabold text-white mt-2 text-center bodyFont mx-32">Venue</h2>
+                                <p className="title-font text-white mt-2 text-center">More Details ➜</p>
+                            </Link>
+                        </div>
+                    </Slide>
+                </div>
+
+                <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp2">
+                    <Slide left>
+
+                        <div className="p-4 md:w-1/3 sm:mb-0">
+                            <Link to="/programeComitte">
+                                <div className="rounded-lg sm:h-36 overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-user-large sm:fa-8x fa-4x iconclr"></i>
+                                </div>
+                                <h2 className="text-sm font-medium text-white mt-2 text-center bodyFont">Program Committe</h2>
+
+                                <p className="text-sm title-font text-white mt-2 text-center">More Details ➜</p>
+
+                            </Link>
+                        </div>
+                    </Slide>
+                    <Zoom>
+
+                        <div className="p-4 md:w-1/3 sm:mb-0">
+                            <Link to="/acceptedPapers">
+                                <div className="rounded-lg sm:h-36 overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-newspaper sm:fa-8x fa-4x iconclr"></i>
+                                </div>
+                                <h2 className="text-sm font-semibold text-white mt-2 text-center bodyFont">Paper Guidelines</h2>
+
+                                <p className="text-sm title-font text-white mt-2 text-center">More Details ➜</p>
+                            </Link>
+                        </div>
+                    </Zoom>
+                    <Slide left>
+
+                        <div className="p-4 md:w-1/3 sm:mb-0">
+                            <Link to="/venue">
+                                <div className="rounded-lg sm:h-36 overflow-hidden iconclr ">
+                                    <i className="fa-solid fa-location-pin sm:fa-8x fa-4x iconclr"></i>
+                                </div>
+                                <h2 className="text-sm font-semibold text-white mt-2 text-center bodyFont mx-32">Venue</h2>
+                                <p className="text-sm title-font text-white mt-2 text-center">More Details ➜</p>
+                            </Link>
+                        </div>
+                    </Slide>
+                </div>
+
+            </div>
 
 
             <section className="text-gray-600 body-font ">
@@ -581,123 +699,7 @@ const HomePage = () => {
                     </Fade>
                 </div>
             </section >
-            {/*Sixth Section*/}
-            <section className="text-gray-600 body-font" id="impDates" >
-                <div className="container px-5 py-12 mx-auto bg-[#016698]">
 
-                    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp1">
-
-                        <Slide left>
-                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
-                                <div className="rounded-lg h-auto overflow-hidden iconclr ">
-                                    <i className="fa-solid fa-hourglass-end fa-4x iconclr"></i>
-                                </div>
-                                <p className="title-font text-white mt-2 text-center">Full Paper Submission</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
-                                    <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del></div>
-                                    <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
-
-
-                            </div>
-                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
-                                <div className="rounded-lg h-auto overflow-hidden iconclr ">
-                                    <i className="fa-solid fa-bell fa-4x iconclr"></i>
-                                </div>
-                                <p className="title-font text-white mt-2 text-center">Acceptance Notification</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
-                                    {/* <span className='text-sm block'> (For the paper recieved before 05 Dec)</span> */}
-                                </div> June 30,2025</h2>
-
-
-                            </div>
-                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
-                                <div className="rounded-lg h-auto overflow-hidden iconclr ">
-                                    <i className="fa-solid fa-cloud-arrow-up  fa-4x iconclr"></i>
-                                </div>
-                                <p className="title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div> July 31,2025</h2>
-
-                            </div>
-                        </Slide>
-
-                        <Slide right>
-
-                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
-                                <div className="rounded-lg h-auto overflow-hidden iconclr ">
-                                    <i className="fa-solid fa-id-card fa-4x iconclr"></i>
-                                </div>
-                                <p className="title-font text-white mt-2 text-center">Early Bird Registration</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">July 15, 2025</h2>
-
-                            </div>
-                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
-                                <div className="rounded-lg h-auto overflow-hidden iconclr">
-                                    <i className="fa-solid fa-chalkboard-user  fa-4x iconclr"></i>
-                                </div>
-                                <p className="title-font text-white mt-2 text-center">Conference Date</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">November 6-8, 2025</h2>-
-
-                            </div>
-                        </Slide>
-
-                    </div>
-                    <section id="impDates">
-                        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp2">
-                            <Slide left>
-                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-hourglass-end fa-4x iconclr"></i>
-                                    </div>
-                                    <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
-                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
-                                        <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
-
-                                </div>
-                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-bell fa-4x iconclr"></i>
-                                    </div>
-                                    <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
-                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
-                                        {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
-                                    </div>June 30,2025</h2>
-
-
-                                </div>
-
-                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-cloud-arrow-up fa-4x iconclr"></i>
-                                    </div>
-                                    <p className="text-sm title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
-                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[     
-                                  #ff0000]'></div>  July 31,2025</h2>
-
-                                </div>
-
-
-                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-id-card fa-4x iconclr"></i>
-                                    </div>
-                                    <p className="text-sm title-font text-white mt-2 text-center">Early Bird Registration</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">July 15, 2025</h2>
-
-                                </div>
-
-                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                                    <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
-                                        <i className="fa-solid fa-chalkboard-user fa-4x iconclr"></i>
-                                    </div>
-                                    <p className="text-sm title-font text-white mt-2 text-center">Conference Date</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">November 6-8, 2025</h2>
-
-                                </div>
-                            </Slide>
-                        </div>
-                    </section>
-                </div>
-            </section >
 
             {/* 
 
