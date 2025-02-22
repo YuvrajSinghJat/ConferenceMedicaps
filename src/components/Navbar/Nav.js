@@ -93,8 +93,9 @@ const Nav = (props) => {
                         <div className="flex justify-center items-center">
 
                         <div className="flex md:ml-4 text-xl md:my-0 my-2 sm:mx-0 mx-4 justify-center dispNone1">
-                        <a href={downloadBrochure} download="conferenceBrochure" target='_blank'><button type="button" className="inline-block px-4 py-2 bg-[#ff0000] font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#ff0000] hover:border-2 hover:border-[#ff0000] hover:shadow-lg transition duration-150 ease-in-out "><i class="fa-solid fa-circle-down mr-2"></i>Brochure</button>
-                                </a>
+                        <button type="button" className="inline-block px-4 py-2 bg-[#ff0000]  font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#ff0000] hover:border-2 hover:border-[#ff0000] hover:shadow-lg transition duration-150 ease-in-out "><i class="fa-solid fa-circle-down mr-2"></i>Brochure</button>
+                        {/* <a href={downloadBrochure} download="conferenceBrochure" target='_blank'><button type="button" className="inline-block px-4 py-2 bg-[#ff0000] font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#ff0000] hover:border-2 hover:border-[#ff0000] hover:shadow-lg transition duration-150 ease-in-out "><i class="fa-solid fa-circle-down mr-2"></i>Brochure</button>
+                                </a> */}
                             </div>
 
                             <div className="flex md:ml-4 text-xl md:my-0 my-2 sm:mx-0 mx-4 justify-center dispNone1">

@@ -10,15 +10,15 @@ import StartHero from '../../components/StartHero/StartHero';
 const Topics = () => {
     const [progress, setProgress] = useState(100);
     const mechanicalEngineering = [
-        "Materials Engineering",
-        "Thermal and Fluid Sciences",
+        // "Materials Engineering",
+        // "Thermal and Fluid Sciences",
         "Dynamics and Control Systems",
         "Design and Optimization",
         "Advanced Manufacturing Techniques",
         "Robotics and Mechatronics",
         "Aerospace Engineering",
         "Automotive Engineering",
-        "Tribology",
+        // "Tribology",
         "Computational Mechanics and Modelling",
         "Sustainable Engineering",
         "Noise and Vibration Control",
@@ -29,17 +29,17 @@ const Topics = () => {
     ]
     
     const civilEngineering = [
-        "Sustainable Infrastructure Technologies",
+        // "Sustainable Infrastructure Technologies",
         "Smart and Resilient Structures",
-        "Geotechnical Engineering",
+        // "Geotechnical Engineering",
         "Intelligent Transportation Systems",
         "Water Resource Management Innovations",
         "Construction Automation and Robotics",
         "Urban Analytics for Smart Cities",
-        "Environmentally Sustainable Materials",
-        "Performance-Based Structural Design",
+        // "Environmentally Sustainable Materials",
+        // "Performance-Based Structural Design",
         "Digital Twin Technology in Civil Engineering",
-        "Climate-Resilient Infrastructure",
+        // "Climate-Resilient Infrastructure",
         "Augmented Reality (AR) in Construction",
         "Remote Sensing and Geospatial Technologies",
         "Innovative Waste Management Solutions",
@@ -100,6 +100,40 @@ const Topics = () => {
         "Environmental Impact of Technology",
         "Industry Case Studies"
     ]
+
+    const emergingEngineeringTechnologies = [
+        // "Materials Engineering",
+        // "Thermal and Fluid Sciences",
+        "Dynamics and Control Systems",
+        "Design and Optimization",
+        "Advanced Manufacturing Techniques",
+        "Robotics and Mechatronics",
+        "Aerospace Engineering",
+        "Automotive Engineering",
+        // "Tribology",
+        "Computational Mechanics and Modelling",
+        "Sustainable Engineering",
+        "Noise and Vibration Control",
+        "Innovations in Space Exploration",
+        "Satellite Technologies for Earth Monitoring",
+        "Engineering Challenges in Space Missions",
+        "Commercialization of Space Technologies",
+        // "Sustainable Infrastructure Technologies",
+        "Smart and Resilient Structures",
+        // "Geotechnical Engineering",
+        "Intelligent Transportation Systems",
+        "Water Resource Management Innovations",
+        "Construction Automation and Robotics",
+        "Urban Analytics for Smart Cities",
+        // "Environmentally Sustainable Materials",
+        // "Performance-Based Structural Design",
+        "Digital Twin Technology in Civil Engineering",
+        // "Climate-Resilient Infrastructure",
+        "Augmented Reality (AR) in Construction",
+        "Remote Sensing and Geospatial Technologies",
+        "Innovative Waste Management Solutions",
+        "Disaster Resilience Strategies"
+    ]
     
     return (
         <>
@@ -158,7 +192,7 @@ const Topics = () => {
                                 </div>
                             </div>
                         </div> */}
-                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 1 : MECHANICAL ENGINEERING</div>
+                        {/* <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 1 : MECHANICAL ENGINEERING</div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 mechanicalEngineering.map((element) => (
@@ -171,12 +205,12 @@ const Topics = () => {
                                 ))
                             }
 
-                        </div>
-                        <div className="text-center">
+                        </div> */}
+                        {/* <div className="text-center">
                             <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
-                        </div>
+                        </div> */}
 
-                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 2 : CIVIL ENGINEERING</div>
+                        {/* <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 2 : CIVIL ENGINEERING</div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 civilEngineering.map((element) => (
@@ -189,11 +223,11 @@ const Topics = () => {
                                 ))
                             }
 
-                        </div>
-                        <div className="text-center">
+                        </div> */}
+                        {/* <div className="text-center">
                             <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
-                        </div>
-                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 3 : ELECTRICAL ENGINEERING</div>
+                        </div> */}
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 1 : ELECTRICAL ENGINEERING</div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 electricalEngineering.map((element) => (
@@ -210,7 +244,7 @@ const Topics = () => {
                         <div className="text-center">
                             <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
                         </div>
-                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 4 : COMPUTER TECHNOLOGIES AND ITS APPLICATIONS</div>
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 2 : COMPUTER TECHNOLOGIES AND ITS APPLICATIONS</div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 computerTechnologies.map((element) => (
@@ -227,10 +261,28 @@ const Topics = () => {
                         <div className="text-center">
                             <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
                         </div>
-                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 5 : THE SPECTRUM OF INDUSTRIAL PRACTICES AND CHALLENGES</div>
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 3 : THE SPECTRUM OF INDUSTRIAL PRACTICES AND CHALLENGES</div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 theSpectrum.map((element) => (
+                                    <div className="p-2 sm:w-1/2 w-full" key={element}>
+                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
+                                            <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
+                                            <span className="font-bold text-black sm:text-[1.3] text-sm">{element}</span>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+
+                        </div>
+                        <div className="text-center">
+                            <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                        </div>
+
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 4 : Emerging Engineering Technologies</div>
+                        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                            {
+                                emergingEngineeringTechnologies.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
                                         <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>

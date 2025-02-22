@@ -139,13 +139,13 @@ function Register() {
                             
                         </div>
                         <div className="container mt-12">
-                        <div className="flex items-center mb-3 mr-8 justify-center" >
+                        {/* <div className="flex items-center mb-3 mr-8 justify-center" >
                         <h2 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Charges before July 15, 2025</h2>
                         </div>
-                        <br></br>
+                        <br></br> */}
 
 
-                            <table className="registerTable sm:w-[90%] mx-auto border- border border-black">
+                            {/* <table className="registerTable sm:w-[90%] mx-auto border- border border-black">
                                 
                                 <thead>
                                    
@@ -180,19 +180,19 @@ function Register() {
                                         <td className="highlight border border-black">INR 1000/-</td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table> */}
 
-<br></br>
+{/* <br></br>
 
 
 
-<br></br>
+<br></br> */}
 
 
 
 
                             <div className="flex items-center mb-3 mr-8 justify-center" >
-                        <h2 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Charges after July 15, 2025</h2>
+                        <h2 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Registration Charges</h2>
                         </div>
                         <br></br>
 
@@ -207,29 +207,29 @@ function Register() {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th className="highlight1 border border-black ">Indian Academician</th>
-                                        <td className="highlight border border-black">INR 8500/- </td>
+                                        <th className="highlight1 border border-black ">Non-IEEE Professional</th>
+                                        <td className="highlight border border-black">INR 9000/- </td>
                                     </tr>
                                     <tr>
-                                        <th className="highlight1 border border-black">Student Members</th>
-                                        <td className="highlight border border-black">INR 5000/-</td>
+                                        <th className="highlight1 border border-black">IEEE Professional Members </th>
+                                        <td className="highlight border border-black">INR 8000/-</td>
                                     </tr>
                                     <tr>
-                                        <th className="highlight1 border border-black">Student/Research Scholsr</th>
-                                        <td className="highlight border border-black">INR 6500/-</td>
+                                        <th className="highlight1 border border-black">Non-IEEE Students </th>
+                                        <td className="highlight border border-black">INR 8000/-</td>
                                     </tr>
                                     <tr>
-                                        <th className="highlight1 border border-black">Foreign Academician</th>
-                                        <td className="highlight border border-black">USD 250/-</td>
+                                        <th className="highlight1 border border-black">IEEE Student Members </th>
+                                        <td className="highlight border border-black">INR 7000/-</td>
                                     </tr>
                                     <tr>
-                                        <th className="highlight1 border border-black">Foreign Members</th>
-                                        <td className="highlight border border-black">USD 250/-</td>
+                                        <th className="highlight1 border border-black">Industry Participants</th>
+                                        <td className="highlight border border-black">INR 10000/-</td>
                                     </tr>
-                                    <tr>
+                                    {/* <tr>
                                         <th className="highlight1 border border-black">Attendees</th>
                                         <td className="highlight border border-black">INR 1000/-</td>
-                                    </tr>
+                                    </tr> */}
                                 </tbody>
                             </table>
 
@@ -238,9 +238,9 @@ function Register() {
 
 
                             <div className="flex justify-center mt-8">
-                                {/* <a href="/register" target='_blank'> */}
+                                <a href="https://cmt3.research.microsoft.com/ICEETA2025" target='_blank'>
                                     <button className="inline-flex uppercase text-white py-2 px-6  border-2 focus:outline-none rounded-lg text-md  font-medium bg-[#016698] hover:bg-white hover:text-[#016698] hover:border-2 hover:border-[#016698] hover:shadow-lg transition duration-150 ease-in-out ">Register Here</button>
-                                {/* </a> */}
+                                </a>
                             </div>
                         </div>
                     </div>
