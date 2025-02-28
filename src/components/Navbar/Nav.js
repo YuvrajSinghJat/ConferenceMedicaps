@@ -92,15 +92,23 @@ const Nav = (props) => {
                         }
                         <div className="flex justify-center items-center">
 
-                        <div className="flex md:ml-4 text-xl md:my-0 my-2 sm:mx-0 mx-4 justify-center dispNone1">
-                        <button type="button" className="inline-block px-4 py-2 bg-[#ff0000]  font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#ff0000] hover:border-2 hover:border-[#ff0000] hover:shadow-lg transition duration-150 ease-in-out "><i class="fa-solid fa-circle-down mr-2"></i>Brochure</button>
-                        {/* <a href={downloadBrochure} download="conferenceBrochure" target='_blank'><button type="button" className="inline-block px-4 py-2 bg-[#ff0000] font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#ff0000] hover:border-2 hover:border-[#ff0000] hover:shadow-lg transition duration-150 ease-in-out "><i class="fa-solid fa-circle-down mr-2"></i>Brochure</button>
-                                </a> */}
+
+
+                            <div className="flex md:ml-4 text-xl md:my-0 my-2 sm:mx-0 mx-4 justify-center dispNone1">
+                                <a href="https://cmt3.research.microsoft.com/ICEETA2025" target='_blank'>
+                                    <button className="inline-block px-6 py-2 bg-[#016698] font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#016698] hover:border-2 hover:border-[#016698] hover:shadow-lg transition duration-150 ease-in-out ">Paper Submission</button>
+                                </a>
                             </div>
 
                             <div className="flex md:ml-4 text-xl md:my-0 my-2 sm:mx-0 mx-4 justify-center dispNone1">
                                 <Link to='/register'><button type="button" className="inline-block px-6 py-2 bg-[#016698] font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#016698] hover:border-2 hover:border-[#016698] hover:shadow-lg transition duration-150 ease-in-out ">Register</button>
                                 </Link>
+                            </div>
+
+                            <div className="flex md:ml-4 text-xl md:my-0 my-2 sm:mx-0 mx-4 justify-center dispNone1">
+                        <button type="button" className="inline-block px-4 py-2 bg-[#ff0000]  font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#ff0000] hover:border-2 hover:border-[#ff0000] hover:shadow-lg transition duration-150 ease-in-out "><i class="fa-solid fa-circle-down mr-2"></i>Brochure</button>
+                        {/* <a href={downloadBrochure} download="conferenceBrochure" target='_blank'><button type="button" className="inline-block px-4 py-2 bg-[#ff0000] font-medium border-2 border-white text-white text-sm leading-tight uppercase rounded-lg hover:bg-white hover:text-[#ff0000] hover:border-2 hover:border-[#ff0000] hover:shadow-lg transition duration-150 ease-in-out "><i class="fa-solid fa-circle-down mr-2"></i>Brochure</button>
+                                </a> */}
                             </div>
 
                         </div>
