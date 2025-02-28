@@ -3,7 +3,7 @@ import './Navbar.css';
 import { Link, useLocation } from "react-router-dom";
 import hamburger from './hamburger.svg'
 import close from './close.svg'
-import medicapsLogo from '../../img/medicaps_logo.png'
+import medicapsLogo from '../../img/MedicapsNewLogo.png'
 import medicaps25 from '../../img/medi25year.jpg'
 import medicapsLogo1 from '../../img/medicapslogo1.png'
 import ieeeLogo from '../../img/springer.png'
@@ -20,7 +20,7 @@ const Nav = (props) => {
     let Links = [
         { name: "ABOUT CONFERENCE ", link: "/" },
         { name: "ABOUT UNIVERSITY", link: "/aboutMedicaps" },
-        { name: "PROGRAM COMMITTEE", link: "/programeComitte" },
+        { name: "COMMITTEES", link: "/programeComitte" },
         // { name: "PAPER SUBMISSION", link: "/paperSubmission" },
         { name: "PAPER GUIDELINES", link: "/acceptedPapers" },
         { name: "VENUE", link: "/venue" },

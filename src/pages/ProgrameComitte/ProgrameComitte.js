@@ -5,7 +5,7 @@ import Nav from '../../components/Navbar/Nav';
 
 const ProgrameComitte = () => {
     const chiefPatron = ["Shri R.C. Mittal, Chancellor","Shri Gopal Agrawal, Pro Chancellor","Shri Palash Garg, OSD to Chancellor","Ms. Saloni Garg, Director Promotion & Branding"]
-    const patron = [ "Prof. D.K. Patnaik, Vice Chancellor"]
+    const patron = [ "Prof. D.K. Patnaik, Vice Chancellor" , "Prof. Birajashis Pattnaik, Pro Vice Chancellor"]
     const conferenceChair = ["Prof. Pramod S. Nair"]
     const conferenceCoChair = ["Prof. Rajendra K Shukla"]
     const convener = [
@@ -24,15 +24,14 @@ const ProgrameComitte = () => {
 
     const programChair = [
         "Mr. P. Siluvainathan",
-        "Prof. V. Ganeshan",
-        "Prof. Shilpa Tripathi",
-        "Prof. Ajay Kulkarni",
-        "Prof. Jitendra Choudhary",
-        "Prof. Prashant Panse",
-        "Prof. Anil Patidar"
+        "Dr. V Ganeshan",
+        "Dr. Shilpa Tripathi",
+        "Dr. A A Koser",
+        "Dr. S D Upadhyay",
+        "Dr. Sanjay Jain",
+       " Dr. S D Upadhyay"
     ];
-    
-    
+
     const conferenceCoOrdinators = ["Prof. Rajendra Shukla", "Prof. Shilpa Tripathi", "Prof. Ajay Kulkarni", "Prof. Jitendra Choudhary", "Prof. Prashant Panse", "Prof. M. Murli", "Prof. Anil Patidar", "Prof. V. Ganeshan"];
     const oragnizingCommittee = [
         "Prof. Thirugnanasamban K G",
@@ -373,9 +372,10 @@ const ProgrameComitte = () => {
     ]
 
     const technicalProgramCommitteeChairs = [
+        "Prof. Prashant Panse",
         "Prof. Sanket Gupta",
         "Dr. Kailash Chandra Bandhu",
-        "Dr. Sonu Kumar"
+        "Dr. Sonu Kumar, Vice Chair, Membership Development, IEEE MP Section"
         
     ]
 
@@ -385,7 +385,7 @@ const ProgrameComitte = () => {
     
     const publicationChairs = [
         "Dr. Vipin Sharma",
-        "Dr. Sonu Kumar, Vice Chair, Membership Development, IEEE MP Section"
+        
     ]
     
     const publicityChairs = [
@@ -415,7 +415,7 @@ const ProgrameComitte = () => {
 
                         <div className="flex items-center mb-16 mr-8 justify-center" >
 
-                            <h1 className='sm:text-4xl text-xl font-black text-black sm:ml-12 bodyFont2'>PROGRAM COMMITTEE MEMBERS
+                            <h1 className='sm:text-4xl text-xl font-black text-black sm:ml-12 bodyFont2'>COMMITTEES
                             </h1>
                             <i className="fa-solid fa-user-large fa-3x ml-12" style={{ color: '#016698' }}></i>
                         </div>
@@ -462,7 +462,7 @@ const ProgrameComitte = () => {
 
                                 ))} */}
 
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Convener Co-Chairs</p>
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">General Co-Chairs</p>
                                 {conferenceCoChairs.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
@@ -470,29 +470,22 @@ const ProgrameComitte = () => {
 
                                 ))}
                                 
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Program Chair</p>
+                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Program Chair</p>
                                 {programChair.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))}
+                                ))} */}
                                 
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Conference Secretary</p>
+                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Conference Secretary</p>
                                 {conferenceSectery.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))}
+                                ))} */}
 
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Publication Chairs</p>
-                                {publicationChairs.map((element) => (
-                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
-                                        <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
-                                    </p>
-
-                                ))}
 
 
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Publicity Chairs</p>
@@ -503,13 +496,13 @@ const ProgrameComitte = () => {
 
                                 ))} */}
 
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Publication Committee</p>
+                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Publication Committee</p>
                                 {publicationCommitte.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))}
+                                ))} */}
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Sponsorship Committee</p>
                                 {sponsorshipCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
@@ -531,13 +524,7 @@ const ProgrameComitte = () => {
                                     </p>
 
                                 ))} */}
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Finance Chair</p>
-                                {financeChair.map((element) => (
-                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
-                                        <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
-                                    </p>
 
-                                ))}
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Keynote Speaker Committee</p>
                                 {keynoteSpeakerCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
@@ -581,35 +568,35 @@ const ProgrameComitte = () => {
 
                             <div className='basis-1/2'>
  
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Convener</p>
+                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Convener</p>
                                 {convener.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))}
+                                ))} */}
 
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Technical Program Committee Chairs</p>
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Technical Program Committee</p>
                                 {technicalProgramCommitteeChairs.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
                                 ))}
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Organizing Committee</p>
+                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Organizing Committee</p>
                                 {oragnizingCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))}
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Feedback Committee</p>
+                                ))} */}
+                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Feedback Committee</p>
                                 {feedbackCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))}
+                                ))} */}
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Cultural Committee</p>
                                 {culturalCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
@@ -631,13 +618,30 @@ const ProgrameComitte = () => {
                                     </p>
 
                                 ))} */}
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">CMT platform Committee</p>
+                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">CMT platform Committee</p>
                                 {CMTplatformCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
+                                ))} */}
+                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Finance Chair</p>
+                                {financeChair.map((element) => (
+                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
+                                        <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
+                                    </p>
+
+                                ))} */}
+
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Publication Chairs</p>
+                                {publicationChairs.map((element) => (
+                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
+                                        <span className='text-[#016698]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
+                                    </p>
+
                                 ))}
+
+
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#af0202]">Media & Publicity</p>
                                 {mediaAndPublicity.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
