@@ -76,7 +76,23 @@ const Topics = () => {
         "Cognitive Computing and Intelligent Systems",
         "Green Computing: Sustainable IT Solutions",
         "Hyperloop Technology: Revolutionizing Transportation",
-        "Precision Agriculture"
+        "Precision Agriculture",
+        "Graph Theory and Combinatorics",
+        "Mathematical Logic and Foundation",
+        "Number Theory",
+        "Numerical Analysis and Computational Mathematics",
+        "Probability and Statistics",
+        "Modeling and Simulation",
+        "Game Theory",
+        "Cryptography",
+        "Operation Research",
+        "Image Processing and Fixed Point Theory",
+        "Optimization Theory",
+        "Discrete Mathematics",
+        "Fuzzy Theory",
+        "Computer Aided Geometrical Designs Using Splines",
+        "General Mathematical Research and Multidisciplinary"
+          
     ]
         const theSpectrum = [
         "Sustainable Industry Practices",
