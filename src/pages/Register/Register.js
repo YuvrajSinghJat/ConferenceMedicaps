@@ -202,29 +202,35 @@ function Register() {
                                    
                                     <tr>
                                         <th className="highlight1 border border-black w-[30%]">Particulars</th>
-                                        <th className="highlight1 border border-black w-[35%]">Charges</th>
+                                        <th className="highlight1 border border-black w-[35%]">Charges for Indians</th>
+                                        <th className="highlight1 border border-black w-[35%]">Charges for International</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th className="highlight1 border border-black ">Non-IEEE Professional</th>
                                         <td className="highlight border border-black">INR 9000/- </td>
+                                        <td className="highlight border border-black">USD 250 </td>
                                     </tr>
                                     <tr>
                                         <th className="highlight1 border border-black">IEEE Professional Members </th>
                                         <td className="highlight border border-black">INR 8000/-</td>
+                                        <td className="highlight border border-black">USD 250 </td>
                                     </tr>
                                     <tr>
                                         <th className="highlight1 border border-black">Non-IEEE Students </th>
                                         <td className="highlight border border-black">INR 8000/-</td>
+                                        <td className="highlight border border-black">USD 250 </td>
                                     </tr>
                                     <tr>
                                         <th className="highlight1 border border-black">IEEE Student Members </th>
                                         <td className="highlight border border-black">INR 7000/-</td>
+                                        <td className="highlight border border-black">USD 250 </td>
                                     </tr>
                                     <tr>
                                         <th className="highlight1 border border-black">Industry Participants</th>
                                         <td className="highlight border border-black">INR 10000/-</td>
+                                        <td className="highlight border border-black">USD 250 </td>
                                     </tr>
                                     {/* <tr>
                                         <th className="highlight1 border border-black">Attendees</th>

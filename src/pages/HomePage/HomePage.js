@@ -40,6 +40,7 @@ import speaker4 from '../../img/speaker4.jpg'
 import keyNoteSpeakers8 from "../../img/keyNoteSpeakers8.jpg"
 import keyNoteSpeakers9 from "../../img/keyNoteSpeakers9.jpg"
 import keyNoteSpeakers10 from "../../img/keyNoteSpeakers10.jpg"
+import INTERNATIONAL_CONFERENCE_ALERTS from "../../img/INTERNATIONAL-CONFERENCE-ALERTS.png"
 
 const HomePage = () => {
     const [progress, setProgress] = useState(100);
@@ -317,6 +318,48 @@ const HomePage = () => {
 
             </div>
 
+            <section className="text-gray-600 body-font ">
+                <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
+                    <div className="flex flex-col text-center w-full mb-10">
+                        <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">MEDIA COLLABORATIONS</h1>
+                        {/* <h2>Yet to declare</h2> */}
+                    </div>
+
+                    <div className="flex flex-wrap -m-4 justify-center">
+                        <Zoom>
+                        
+                            <div className="p-4 lg:w-1/4 md:w-1/2">
+                            <a href="https://internationalconferencealerts.com/" target="_blank">
+                                <div className="h-full flex flex-col items-center text-center justify-center ">
+                                    <img alt="International Conference Alerts" className="flex-shrink-0 rounded-lg w-56 h-auto  mb-4" src={INTERNATIONAL_CONFERENCE_ALERTS} />
+                                </div>
+                                </a>
+                            </div>
+                         
+                        </Zoom>
+                       
+                        {/* <Zoom>
+                            <div className="p-4 lg:w-1/4 md:w-1/2">
+                                <div className="h-full flex flex-col items-center text-center">
+                                    <img alt="team" className="flex-shrink-0 rounded-lg w-56 h-56 object-center mb-4" src={ACMlogo} />
+                                </div>
+                            </div>
+                        </Zoom>
+                        <Zoom>
+                            <div className="p-4 lg:w-1/4 md:w-1/2">
+                                <div className="h-full flex flex-col items-center text-center">
+                                    <img alt="team" className="flex-shrink-0 rounded-lg w-56 h-56 object-center mb-4" src={npcst} />
+                                </div>
+                            </div>
+                        </Zoom> */}
+
+                    </div>
+                    <div className="text-center">
+                        <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                    </div>
+
+                </div>
+            </section>
 
             <section className="text-gray-600 body-font ">
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
