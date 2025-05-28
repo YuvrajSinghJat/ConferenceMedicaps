@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "./Footer.css"
 const Footer = () => {
     return (
         <>
-            <footer className="text-black bg-[#016698] body-font mt-4">
+            <footer className="text-black body-font mt-4 gradientColor">
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="/">
 

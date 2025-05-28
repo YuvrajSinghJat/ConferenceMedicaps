@@ -47,3 +47,15 @@
     border-image: linear-gradient(to right, #016698, #016698) 1;
     /* border-color: green; */
 }
+
+.gradientColor{
+     background-image : linear-gradient(to right, #293985 ,#a21d2e);
+}
+
+.gradientHeading{
+    font-size: 40px;
+    background: -webkit-linear-gradient(#293985, #a21d2e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

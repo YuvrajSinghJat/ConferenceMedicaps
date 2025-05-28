@@ -5,7 +5,8 @@
     border-bottom-right-radius: 8px;
     border-top: 3px;
     border-style: solid;
-    border-image: linear-gradient(to right, #016698, #016698) 1;
+    border-color: #293985;
+    /* border-image: linear-gradient(to right, #016698, #016698) 1; */
     /* border-color: green; */
 }
 .accordion {
@@ -32,3 +33,14 @@
     display: none;
     overflow: hidden;
   }
+
+.gradientColor{
+     background-image : linear-gradient(to right, #293985 ,#a21d2e);
+}
+
+.gradientHeading{
+    background: -webkit-linear-gradient(#293985, #a21d2e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

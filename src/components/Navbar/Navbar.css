@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    /* background-image : linear-gradient(to right, #293985 ,#a21d2e); */
 }
 
 .nav-link1 {
@@ -147,4 +148,11 @@ body {
     }
 
 
+}
+
+.headingMain{
+    background: -webkit-linear-gradient(#293985, #a21d2e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

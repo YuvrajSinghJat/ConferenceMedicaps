@@ -16,11 +16,11 @@ const Venue = () => {
                 <div className="container px-5 py-6 mx-auto bg-[#E3F0FB]">
                     <div className="w-full mx-auto text-center">
 
-                        <div className="flex items-center mb-3 mr-8 justify-center" >
+                        <div className="flex items-center mb-3 mr-8 justify-center gradientColor" >
 
-                            <h1 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>VENUE
+                            <h1 className='sm:text-4xl text-xl font-black text-white ml-12 bodyFont2'>VENUE
                             </h1>
-                            <i className="fa-solid fa-location-pin sm:fa-3x fa-2x ml-12" style={{ color: "#016698" }}></i>
+                            <i className="fa-solid fa-location-pin sm:fa-3x fa-2x ml-12" style={{ color: "#ffffff" }}></i>
                         </div>
                         <p className="leading-relaxed sm:text-[1.3rem] sm:mt-12 text-sm font-bold text-black text-center">
 
@@ -28,13 +28,13 @@ const Venue = () => {
                             Medi-Caps University
                             <br />
                             A.B. Road, Pigdamber, Rau Indore - (453331)
-                            <span className='text-[#016698] mx-2'>
+                            <span className='text-[#293985] mx-2'>
                                 0731-3111500,
 
                                 0731-3111501
                             </span>
 
-                            e-mail:  <span className='text-[#016698]'>iceeta2025@medicaps.ac.in</span>
+                            e-mail:  <span className='text-[#293985]'>iceeta2025@medicaps.ac.in</span>
                         </p>
 
                         {/* <p className="leading-relaxed sm:text-[1.3rem] sm:mt-12 text-sm font-bold text-black text-center">
@@ -62,7 +62,7 @@ const Venue = () => {
 
                     <div className="text-center">
 
-                        <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                        <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                     </div>
                 </div>
 
@@ -135,17 +135,17 @@ const Venue = () => {
                 </div>
             </section> */}
 
-            <section class="text-gray-600 body-font">
+            {/* <section class="text-gray-600 body-font">
                 <div class="container px-24 py-24 mx-auto bg-[#E3F0FB]">
-                    <div className="w-full mx-auto text-left">
+                    <div className="w-full mx-auto text-left"> */}
 
-                        <div className="flex items-center mb-3 mr-8 justify-center" >
+                        {/* <div className="flex items-center mb-3 mr-8 justify-center" > */}
 {/* 
                             <h1 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Hostel Facility for Girl
                             </h1> */}
                             {/* <i className="fa-solid fa-id-card sm:fa-3x fa-2x ml-12" style={{ color: "#016698" }}></i> */}
-                        </div>
-                    </div>
+                        {/* </div>
+                    </div> */}
 {/*                     
                     <div><p className="leading-relaxed  mt-12 sm:text-xl font-semibold text-black text-sm text-justify mx-18"><span className="text-[#00629B]">Stay Arrangements</span> can be made on request @ Rs 500/- Per person/night <span className="text-[#00629B]">(for Females)</span> in Medi-Caps Non-AC
                         Hostel, including meals. Nearby hotels available through online bookings are: Gurukripa (Budget
@@ -176,8 +176,8 @@ const Venue = () => {
                             </div>
                         </div>
                     </div> */}
-                </div>
-            </section>
+                {/* </div>
+            </section> */}
             <Footer />
         </>
     )
