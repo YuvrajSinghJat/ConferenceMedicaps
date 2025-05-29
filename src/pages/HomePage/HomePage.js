@@ -74,13 +74,12 @@ const HomePage = () => {
             
 
             <section className="text-gray-600 body-font mt-4">
-<br></br>
 
-            <h1 className="text-2xl text-black mt-2 text-center bodyFont">IEEE Application Number : 66496</h1>
+            <h1 className="text-2xl text-black mt-2 text-center bodyFont gradientHeading">IEEE Application Number : 66496</h1>
             <br></br>
             {/*Sixth Section*/}
             <section className="text-gray-600 body-font" id="impDates" >
-                <div className="container px-5 py-12 mx-auto bg-[#016698]">
+                <div className="container px-5 py-12 mx-auto gradientColor">
 
                     <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp1">
 
@@ -210,7 +209,7 @@ const HomePage = () => {
                             <p className="mb-8 leading-relaxed text-black sm:text-xl text-sm font-semibold text-justify">The objective of this international conference is to foster a dynamic exchange of knowledge and innovation across the domains of mechanical, civil, electrical and computer engineering. By bringing together leading scholars, industry experts, and visionary practitioners, the conference aims to strengthen academic-industry collaboration and provide a forum for the dissemination of pioneering research, advanced technologies, and future- oriented solutions. Emphasizing interdisciplinary synergy, the event is aimed at addressing pressing global challenges while promoting sustainable, cutting-edge practices. Ultimately, it aspires to contribute to the technological growth and sustainable development of our nation, positioning it at the forefront of global innovation. The conference will feature keynote addresses from eminent personalities in various fields aligned with the theme, including distinguished Indian and international speakers.<span className='text-[#00629B] font-bold'></span><span className='text-[#00629B] font-bold'></span></p>
                             <div className="flex justify-center">
                                 <Link to='/register'>
-                                    <button className="inline-flex uppercase text-white py-2 px-6  border-2 focus:outline-none rounded-lg text-md  font-medium bg-[#016698] hover:bg-white hover:text-[#016698] hover:border-2 hover:border-[#016698] hover:shadow-lg transition duration-150 ease-in-out ">Register</button>
+                                    <button className="inline-flex uppercase text-white py-2 px-6  border-2 focus:outline-none rounded-lg text-md  font-medium bg-[#293985] hover:bg-white hover:text-[#293985] hover:border-2 hover:border-[#293985] hover:shadow-lg transition duration-150 ease-in-out ">Register</button>
                                 </Link>
                             </div>
 
@@ -227,7 +226,7 @@ const HomePage = () => {
                 </div>
             </section>
 
-            <div className="container py-12 mx-auto bg-[#016698] ">
+            <div className="container py-12 mx-auto gradientColor">
                 
                 {/* <div className="text-center mb-12">
                                                     <h1 className="sm:text-6xl sm:font-black text-3xl text-[#00033D] font-medium bodyFont2">Details Of Conference</h1>
@@ -322,7 +321,7 @@ const HomePage = () => {
             <section className="text-gray-600 body-font ">
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-10">
-                        <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">MEDIA COLLABORATIONS</h1>
+                        <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">MEDIA COLLABORATIONS</h1>
                         {/* <h2>Yet to declare</h2> */}
                     </div>
 
@@ -368,7 +367,7 @@ const HomePage = () => {
 
                     </div>
                     <div className="text-center">
-                        <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                        <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                     </div>
 
                 </div>
@@ -377,7 +376,7 @@ const HomePage = () => {
             <section className="text-gray-600 body-font ">
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-10">
-                        <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">COLLABORATIONS</h1>
+                        <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">COLLABORATIONS</h1>
                         {/* <h2>Yet to declare</h2> */}
                     </div>
 
@@ -420,7 +419,7 @@ const HomePage = () => {
 
                     </div>
                     <div className="text-center">
-                        <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                        <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                     </div>
 
                 </div>
@@ -428,7 +427,7 @@ const HomePage = () => {
             <section className="text-gray-600 body-font ">
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-10">
-                        <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">COLLABORATING UNIVERSITIES</h1>
+                        <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">COLLABORATING UNIVERSITIES</h1>
                     {/* <h2>Yet to declare</h2> */}
 
                     </div>
@@ -459,7 +458,7 @@ const HomePage = () => {
                         </Zoom>
                     </div>
                     <div className="text-center">
-                        <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-12 mb-6"></span>
+                        <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-12 mb-6"></span>
                     </div>
                 </div>
             </section>
@@ -505,7 +504,7 @@ const HomePage = () => {
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-12">
-                        <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">KEY NOTE SPEAKERS</h1>
+                        <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">KEY NOTE SPEAKERS</h1>
                         {/* <h2><b>Yet to Declare</b></h2> */}
                     </div>
                     <div className="flex flex-wrap -m-4 w-full mx-auto">
@@ -618,7 +617,7 @@ const HomePage = () => {
                     </div>
                     <div className="text-center">
 
-                        <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6 mx-auto"></span>
+                        <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6 mx-auto"></span>
                     </div>
 
                 </div>
@@ -654,9 +653,8 @@ const HomePage = () => {
                     <div class="container px-5 py-24">
                         <div class="flex flex-wrap w-full mb-20">
                             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-                                <h1 className="sm:text-4xl text-3xl mb-4 font-black text-black bodyFont2">Previous Conferences
+                                <h1 className="sm:text-4xl text-3xl mb-4 font-black text-black bodyFont2 gradientHeading">Previous Conferences
                                 </h1>
-                                <div class="h-1 w-20 bg-indigo-500 rounded"></div>
                             </div>
                         </div>
 
@@ -664,7 +662,7 @@ const HomePage = () => {
                         <Slide bottom>
 
                             <div class="xl:w-1/4 md:w-1/2 ml-2">
-                                <div class="bg-[#016698] rounded-lg mr-3">
+                                <div class="bg-[#293985] rounded-lg mr-3">
                                     <a href="https://ieeexplore.ieee.org/xpl/conhome/10486055/proceeding">
                                         <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_4} alt="content" />
                                         <div className="px-6 pb-1">
@@ -678,7 +676,7 @@ const HomePage = () => {
                           
                             <Slide bottom>
                                 <div class="xl:w-1/4 md:w-1/2 ml-2">
-                                    <div class="bg-[#016698] rounded-lg mr-3">
+                                    <div class="bg-[#293985] rounded-lg mr-3">
                                         <a href="https://www.springer.com/in/book/9789811551949">
                                         <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_2} alt="content" />
                                         <div className="px-6 pb-1">
@@ -693,7 +691,7 @@ const HomePage = () => {
                             <Slide bottom>
 
 <div class="xl:w-1/4 md:w-1/2 p-4">
-    <div class="bg-[#016698] rounded-lg mr-3">
+    <div class="bg-[#293985] rounded-lg mr-3">
         <a href="https://link.springer.com/book/10.1007/978-981-13-2673-8">
             <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_1} alt="content" />
             <div className="px-6 pb-1">
@@ -708,7 +706,7 @@ const HomePage = () => {
                             <Slide bottom>
 
                                 <div class="xl:w-1/4 md:w-1/2 p-4">
-                                    <div class="bg-[#016698] rounded-lg mr-3">
+                                    <div class="bg-[#293985] rounded-lg mr-3">
                                         <a href="https://ieeexplore.ieee.org/xpl/conhome/7562831/proceeding">
                                             <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_3} alt="content" />
                                             <div className="px-6 pb-1">
@@ -723,7 +721,7 @@ const HomePage = () => {
                             <Slide bottom>
 
                                 <div class="xl:w-1/4 md:w-1/2 ml-2">
-                                    <div class="bg-[#016698] rounded-lg mr-3">
+                                    <div class="bg-[#293985] rounded-lg mr-3">
                                         <a href="https://ieeexplore.ieee.org/xpl/conhome/7368254/proceeding">
                                             <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_4} alt="content" />
                                             <div className="px-6 pb-1">
@@ -734,21 +732,27 @@ const HomePage = () => {
                                     </div>
                                 </div>
                             </Slide>
+                          
                     </div>
+                  
                 </div>
+               
                 </div>
+                
             </section >
+            
             {/*fifth section*/}
 
             <section section className="text-gray-600 body-font " >
+
                 <div className="container mx-auto flex px-5 py-12 items-center justify-center flex-col bg-[#E3F0FB]">
                     <Fade bottom>
 
 
                         <div className="text-center lg:w-2/3 w-full">
-                            <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">PAPER SUBMISSION</h1>
-                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"> </span></del><span className="text-[#ff0000]">May 30,2025</span>.</span> Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
-                            <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                            <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">PAPER SUBMISSION</h1>
+                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#293985]'>Submission System</span> by <span className='text-[#293985] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#293985]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#293985]"> </span></del><span className="text-[#ff0000]">May 30,2025</span>.</span> Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
+                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
 
 
                         </div>
@@ -763,8 +767,8 @@ const HomePage = () => {
                                             <div className="container mx-auto flex px-5 py-12 pb-12 items-center justify-center flex-col bg-[#E3F0FB]">
                                                 <div className="text-center lg:w-2/3 w-full">
                                                     <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">PROCEDINGS</h1>
-                                                    <p className="mb-4 leading-relaxed text-black font-semibold mt-12 sm:text-xl text-sm">Hard copy of the proceedings will be distributed during the Conference. The softcopy will be available on <span className='text-[#016698]'>on IEEE Explore</span></p>
-                                                    <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                                                    <p className="mb-4 leading-relaxed text-black font-semibold mt-12 sm:text-xl text-sm">Hard copy of the proceedings will be distributed during the Conference. The softcopy will be available on <span className='text-[#293985]'>on IEEE Explore</span></p>
+                                                    <span className="inline-block h-1 w-24 rounded bg-[#293985] mt-8 mb-6"></span>
                                                 </div>
                                             </div>
                                         </section> */}
@@ -778,7 +782,7 @@ const HomePage = () => {
                                                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 justify-center">
                                                     <Slide left>
                                                         <div className="sm:p-4 md:w-1/3 sm:mb-0 mb-6">
-                                                            <ul className="bg-[#016698] rounded border-gray-200 sm:w-96 w-80 text-white text-center">
+                                                            <ul className="bg-[#293985] rounded border-gray-200 sm:w-96 w-80 text-white text-center">
                                                                 <li className="px-6 py-2 border-gray-200 w-full borderTopic1 bg-[#57b7e7] text-white text-2xl font-extrabold bodyFont2">
                                                                     Other Conferences
                                                                 </li>
@@ -794,7 +798,7 @@ const HomePage = () => {
                                                     </Slide>
                                                     <Zoom>
                                                         <div className="sm:p-4 md:w-1/3 sm:mb-0 mb-6">
-                                                            <ul className="bg-[#016698] rounded border-gray-200 sm:w-96 w-80 text-white text-center">
+                                                            <ul className="bg-[#293985] rounded border-gray-200 sm:w-96 w-80 text-white text-center">
                                                                 <li className="px-6 py-2 border-gray-200 w-full borderTopic1 bg-[#57b7e7] text-white text-2xl font-extrabold bodyFont2">
                                                                     Past Events
                                                                 </li>
@@ -810,7 +814,7 @@ const HomePage = () => {
                                                     </Zoom>
                                                     <Slide right>
                                                         <div className="sm:p-4 md:w-1/3 sm:mb-0 mb-6">
-                                                            <ul className="bg-[#016698] rounded border-gray-200 sm:w-96 w-80 text-white text-center">
+                                                            <ul className="bg-[#293985] rounded border-gray-200 sm:w-96 w-80 text-white text-center">
                                                                 <li className="px-6 py-2 border-gray-200 w-full borderTopic1 bg-[#57b7e7] text-white text-2xl font-extrabold bodyFont2">
                                                                     Past Events
                                                                 </li>
@@ -828,7 +832,7 @@ const HomePage = () => {
                                                 </div>
                                                 <div className="justify-center mt-16">
 
-                                                    <span className="inline-block h-1 w-24 rounded bg-[#016698] mb-6"></span>
+                                                    <span className="inline-block h-1 w-24 rounded bg-[#293985] mb-6"></span>
                                                 </div>
 
                                             </div>

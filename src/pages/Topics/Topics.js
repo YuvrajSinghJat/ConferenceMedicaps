@@ -94,15 +94,15 @@ const mathematics = [
 
             {/* <StartHero/> */}
             <section className="text-gray-600 body-font mt-4">
-                <div className="container px-5 py-8 mx-auto bg-[#E3F0FB]">
-                    <div className="w-full mx-auto text-center">
+                <div className="container px-5 py-8 mx-auto bg-[#E3F0FB] ">
+                    <div className="w-full mx-auto text-center ">
 
 
 
 
-                        <div className="flex items-center mb-16 mr-8 justify-center" >
+                        <div className="flex items-center mb-16 mr-8 justify-center gradientColor" >
 
-                            <h1 className='sm:text-4xl text-xl font-extrabold text-black sm:ml-12 bodyFont2'>Topics of interest include, but are not limited to, the following
+                            <h1 className='sm:text-4xl text-xl font-extrabold text-white sm:ml-12 bodyFont2 '>Topics of interest include, but are not limited to, the following
                             </h1>
                         </div>
 
@@ -180,14 +180,16 @@ const mathematics = [
                         {/* <div className="text-center">
                             <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
                         </div> */}
+
                         <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 1 : MECHANICAL ENGINEERING</div>
+
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 mechanicalEngineering.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
-                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
+                                        <div className="rounded flex p-4 h-full items-center borderTopic gradientColor">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
-                                            <span className="font-bold text-black sm:text-[1.3] text-sm">{element}</span>
+                                            <span className="font-bold text-white sm:text-[1.3] text-sm">{element}</span>
                                         </div>
                                     </div>
                                 ))
@@ -195,16 +197,18 @@ const mathematics = [
 
                         </div>
                         <div className="text-center">
-                            <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                         </div>
+
                         <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 2 : CIVIL ENGINEERING</div>
+
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 civilEngineering.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
-                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
+                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic gradientColor">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
-                                            <span className="font-bold text-black sm:text-[1.3] text-sm">{element}</span>
+                                            <span className="font-bold text-white sm:text-[1.3] text-sm">{element}</span>
                                         </div>
                                     </div>
                                 ))
@@ -212,16 +216,19 @@ const mathematics = [
 
                         </div>
                         <div className="text-center">
-                            <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                         </div>
+
                         <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 3 : ELECTRICAL ENGINEERING</div>
+
+
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 electricalEngineering.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
-                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
+                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic gradientColor">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
-                                            <span className="font-bold text-black sm:text-[1.3] text-sm">{element}</span>
+                                            <span className="font-bold text-white sm:text-[1.3] text-sm">{element}</span>
                                         </div>
                                     </div>
                                 ))
@@ -229,8 +236,9 @@ const mathematics = [
 
                         </div>
                         <div className="text-center">
-                            <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                         </div>
+
 
                         <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 4 : COMPUTER TECHNOLOGIES AND ITS APPLICATIONS</div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -281,13 +289,15 @@ CHALLENGES</div>
                         
                         <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 7 : MATHEMATICS ANS ITS APPLICATION IN VARIOUS 
 FILEDS</div>
+
+
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                mathematics.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
-                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
+                                        <div className="rounded flex p-4 h-full items-center borderTopic gradientColor">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
-                                            <span className="font-bold text-black sm:text-[1.3] text-sm">{element}</span>
+                                            <span className="font-bold text-white sm:text-[1.3] text-sm">{element}</span>
                                         </div>
                                     </div>
                                 ))
@@ -295,7 +305,7 @@ FILEDS</div>
 
                         </div>
                         <div className="text-center">
-                            <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
+                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                         </div>
                     </div>
                 </div>

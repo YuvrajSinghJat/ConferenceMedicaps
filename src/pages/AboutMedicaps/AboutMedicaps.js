@@ -1,7 +1,7 @@
     import React from 'react'
     import StartHero from '../../components/StartHero/StartHero'
     import Footer from '../../components/Footer/Footer'
-    import medicapsLogo from '../../img/medicaps_logo.png'
+    import medicapsLogo from '../../img/MedicapsNewLogo.png'
     import aboutMedicapsGallery from '../../img/aboutMedicapsGallery.jpeg'
     import aboutMedi1 from '../../img/aboutMedi1-min.jpg'
     import aboutMedi2 from '../../img/aboutMedi2-min.jpg'
@@ -20,11 +20,12 @@
                     <div className="container px-5 pt-8 pb-4 mx-auto bg-[#E3F0FB] mt-4">
                         <div className="w-full mx-auto text-left">
 
-                            <div className="flex items-center mb-3 mr-8 justify-center" >
+                            <div className="flex items-center mb-3 mr-8 justify-center gradientColor" >
 
-                                <h1 className='sm:text-4xl text-xl font-black text-black sm:ml-12 bodyFont2'>ABOUT MEDI-CAPS UNIVERSITY
+                                <h1 className='sm:text-4xl text-xl font-black text-white sm:ml-12 bodyFont2'>ABOUT MEDI-CAPS UNIVERSITY
                                 </h1>
-                                <img className='ml-4' src={NewMedicapsLogo} alt="" width={100} />
+          
+                                <img className='ml-3' src={"https://www.medicaps.ac.in/public/frontend/images/footer-logo.webp"} alt="" width={100} /
                             </div>
 
                             {/* IMAGE SECTION */}
@@ -71,12 +72,12 @@
                             <p className="leading-relaxed  mt-12 sm:text-xl text-sm font-semibold text-black">Medi-Caps University is one of the brand name in the arena of technical education and contributing in making Indore an educational hub. Since its inception in July 2000, the group consistently aims at creating an ideal ambiance for budding technocrats and helping them grow like professionals. The main strength of Medi-Caps University is its highly qualified faculty. We have optimal blend of academic brilliance and industry exposure, which is supplemented by highly specialized visiting faculty and industry experts, Medical senior professionals from various segments of different industry/ business houses. This helps in refining the works, candidature of our students from different fields.</p>
                         </div>
                         <div className="text-center">
-                            <span className="inline-block h-1 w-24 mt-8rounded bg-[#016698] mt-8 mb-6"></span>
+                            <span className="inline-block h-1 w-24 mt-8rounded bg-[#a21d2e] mt-8 mb-6"></span>
                         </div>
                         <section className="text-gray-600 body-font ">
                             <div className="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center">
                                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                                    <h1 className="sm:text-4xl text-3xl mb-8 font-black text-black bodyFont2">VISION
+                                    <h1 className="sm:text-4xl text-3xl mb-8 font-black bodyFont2 gradientHeading">VISION
                                     </h1>
                                     <p className="mb-8 leading-relaxed text-black sm:text-xl font-semibold text-sm text-justify">Be an internationally acclaimed University recognised for its excellent teaching, research, innovation, outreach and creating top class technocrats and professionals who can serve mankind as multi skilled global citizens.</p>
 
@@ -88,13 +89,13 @@
                                 </div>
                             </div>
                             <div className="text-center mt-0">
-                                <span className="inline-block h-1 w-24 rounded bg-[#016698] mb-6"></span>
+                                <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mb-6"></span>
                             </div>
                         </section>
                         <section className="text-gray-600 body-font ">
                             <div className="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center">
                                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                                    <h1 className="sm:text-4xl text-3xl mb-8 font-black text-black bodyFont2">MISSION
+                                    <h1 className="sm:text-4xl text-3xl mb-8 font-black text-black bodyFont2 gradientHeading">MISSION
                                     </h1>
                                     <p className="mb-8 leading-relaxed text-black sm:text-xl font-semibold text-sm">
                                         <ul>
@@ -116,7 +117,7 @@
                                 </div>
                             </div>
                             <div className="text-center mt-0">
-                                <span className="inline-block h-1 w-24 rounded bg-[#016698] mb-6"></span>
+                                <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mb-6"></span>
                             </div>
                         </section>
                     </div>

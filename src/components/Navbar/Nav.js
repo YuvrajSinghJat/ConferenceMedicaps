@@ -54,9 +54,9 @@ const Nav = (props) => {
                 </div>
                 <Zoom>
                     <div className="w-full block flex-grow justify-center lg:flex lg:items-center lg:w-auto">
-                        <p className="dispNone1 text-center sm:w-auto sm:text-[3.25rem] sm:font-black text-[#016698] font-bold startHeading12 supHeading  mt-4">IEEE International Conference on Emerging <br></br>Engineering Technologies and Applications<br></br>(IC-EETA’25)<span className='text-[1.25rem] '><br></br>November 6-8, 2025</span>
+                        <p className="dispNone1 text-center sm:w-auto sm:text-[3.25rem] sm:font-black text-[#016698] font-bold startHeading12 supHeading  mt-4 headingMain font-extrabold">IEEE International Conference on Emerging <br></br>Engineering Technologies and Applications<br></br>(IC-EETA’25)<span className='text-[1.25rem] '><br></br>November 6-8, 2025</span>
                         </p>
-                        <p className="dispNone2 text-center sm:w-auto sm:text-[3.25rem] sm:font-black text-[#016698] font-bold startHeading12 supHeading  mt-1 mx-2">IEEE International Conference on Emerging <br></br> Engineering Technologies <br></br> and Applications (IC-EETA’25)<br /><span className='text-[0.7rem] '>November 6-8, 2025</span>
+                        <p className="dispNone2 text-center sm:w-auto sm:text-[3.25rem] sm:font-black text-[#016698] font-bold startHeading12 supHeading  mt-1 mx-2 headingMain font-extrabold">IEEE International Conference on Emerging <br></br> Engineering Technologies <br></br> and Applications (IC-EETA’25)<br /><span className='text-[0.7rem] '>November 6-8, 2025</span>
                         </p>
 
                     </div>
@@ -82,11 +82,11 @@ const Nav = (props) => {
 
                     </div>
 
-                    <ul className={`${props.type === 'homePage' ? 'dispNone' : null} md:flex items-center:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 sm:pl-9 transition-all sideNav duration-500 ease-in navClass1  ${open ? 'top-[56px] ' : 'top-[-1100px]'}`} >
+                    <ul className={`${props.type === 'homePage' ? 'dispNone' : null} md:flex items-center:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 sm:pl-9 transition-all sideNav duration-500 ease-in navClass1 ${open ? 'top-[56px] ' : 'top-[-1100px]'}`} >
                         {
                             Links.map((link) => (
-                                <li key={link.name} className='md:ml-6 text-xs md:my-0 my-7 text-center'>
-                                    <Link to={link.link} className={`hover:text-[#016698] text-[1rem]  linkText duration-500 font-bold text-white nav-link ${link.link !== location.pathname ? 'sm:text-black ' : 'sm:text-[#016698] '}`}>{link.name}</Link>
+                                <li key={link.name} className='md:ml-6 text-xs md:my-0 my-7 text-center '>
+                                    <Link to={link.link} className={`hover:text-[#a21d2e] text-[1rem]  linkText duration-500 font-bold text-[#a21d2e] nav-link ${link.link !== location.pathname ? 'sm:text-[#293985] ' : 'sm:text-[#293985] ' }`}>{link.name}</Link>
                                 </li>
                             ))
                         }
