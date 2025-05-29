@@ -21,7 +21,7 @@ const ContactUs = () => {
                         </div> 
                         <p className="leading-relaxed sm:text-[1.3rem] mt-12 md:ml-12 font-bold text-black text-sm text-center">
 
-                            Here's where you can reach us :  <span className='text-[#016698]'> iceeta2025@medicaps.ac.in </span>(or)  <span className='text-[#016698]'> info_iceeta2025@medicaps.ac.in </span>
+                            Here's where you can reach us :  <span className='text-[#016698]'> iceeta2025@medicaps.ac.in </span> <span className='text-[#016698]'>  </span>
                         </p>
                         <p className="leading-relaxed sm:text-[1.3rem] mt-4 md:ml-12 font-bold text-black text-sm text-center">
 
