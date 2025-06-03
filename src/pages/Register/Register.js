@@ -20,8 +20,8 @@ function Register() {
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Full Paper Submission</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
-                                    <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del></div>
-                                    <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
+                                    <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white">May 30,2025</span></del></div>
+                                   <div><div className='text-[#ff0000]'>June 15,2025</div></div></h2>
 
 
                             </div>
@@ -75,8 +75,8 @@ function Register() {
                                         <i className="fa-solid fa-hourglass-end fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
-                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
-                                        <div><div className='text-[#ff0000]'>.</div></div>May 30,2025</h2>
+                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white">May 30,2025</span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
+                                        <div><div className='text-[#ffffff]'></div></div>June 15,2025</h2>
 
                                 </div>
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -84,9 +84,9 @@ function Register() {
                                         <i className="fa-solid fa-bell fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
-                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>June 30,2025
+                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                         {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
-                                    </div> July 15, 2025</h2>
+                                    </div> June 30,2025</h2>
 
 
                                 </div>
