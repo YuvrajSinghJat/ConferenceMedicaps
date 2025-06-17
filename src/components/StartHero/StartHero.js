@@ -39,7 +39,7 @@ const StartHero = (props) => {
             <article className='container mx-auto'>
                 <div className="wrapper " >
                     <ul className="marquee">
-                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black">May 30,2025 </span></del><span className="text-[#ff0000]"></span> June 15,2025</span></li>
+                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black">May 30,2025 </span></del><span className="text-[#ff0000]"></span> June 30,2025</span></li>
 
                         <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> June 30,2025</span></li>
 
@@ -48,7 +48,7 @@ const StartHero = (props) => {
                         <li>Conference Date - <span className='liName'>November 6-8, 2025</span></li>
                     </ul>
                     <ul className="marquee2">
-                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black">May 30,2025 </span></del><span className="text-[#ff0000]"></span> June 15,2025</span></li>
+                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black">May 30,2025 </span></del><span className="text-[#ff0000]"></span> June 30,2025</span></li>
 
                         <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> June 30,2025</span></li>
 

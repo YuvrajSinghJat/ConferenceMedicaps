@@ -92,7 +92,7 @@ const HomePage = () => {
                                 <p className="title-font text-white mt-2 text-center">Full Paper Submission</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
                                     <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white">May 30,2025</span></del></div>
-                                    <div><div className='text-[#ff0000]'></div></div>June 15,2025</h2>
+                                    <div><div className='text-[#ff0000]'></div></div>June 30,2025</h2>
 
 
                             </div>
@@ -147,7 +147,7 @@ const HomePage = () => {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white">May 30,2025</span></del>
-                                        <div><div className='text-[#ff0000]'></div></div>June 15,2025</h2>
+                                        <div><div className='text-[#ff0000]'></div></div>June 30,2025</h2>
 
                                 </div>
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -747,7 +747,7 @@ const HomePage = () => {
 
                         <div className="text-center lg:w-2/3 w-full">
                             <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">PAPER SUBMISSION</h1>
-                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]">May 30,2025 </span></del><br></br><span className="text-[#ff0000]"> June 15,2025</span></span> (Due to the overwhelming response and the request for extending the submission date). Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
+                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]">May 30,2025 </span></del><br></br><span className="text-[#ff0000]"> June 30,2025</span></span> (Due to the overwhelming response and the request for extending the submission date). Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
                             <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
 
 
