@@ -3,7 +3,7 @@ import Nav from '../../components/Navbar/Nav'
 import Footer from '../../components/Footer/Footer'
 import './register.css';
 import Slide from 'react-reveal/Slide';
-import qrcode from '../../img/newQrCodeForBank.jpg'
+import qrcode from '../../img/paymentqr.jpg'
 function Register() {
     return (
         <>
@@ -267,14 +267,14 @@ function Register() {
 
                                 <tbody>
                                     <tr>
-                                        <th className="highlight1 border border-black w-[30%]">Name of A/c</th>
-                                        <th className="highlight1 border border-black w-[35%]">MEDI-CAPS UNIVERSITY - CEP</th>
+                                        <th className="highlight1 border border-black w-[30%]">Payment through link<br/>**There is a discount of 1000 Rs if you register before 15 July,2025</th>
+                                        {/* <th className="highlight1 border border-black w-[35%]">MEDI-CAPS UNIVERSITY - CEP</th> */}
                                     </tr>
                                     <tr>
-                                        <th className="highlight1 border border-black w-[30%]">A/c No.</th>
-                                        <th className="highlight1 border border-black w-[35%]">0001104000600323</th>
+                                        <th className="highlight1 border border-black w-[30%]"><a href="https://portal.medicaps.ac.in/accsoft2/MiscellaneousPayment.aspx" className='text-[#0000FF] underline'>PAY HERE</a></th>
+                                        {/* <th className="highlight1 border border-black w-[35%]">0001104000600323</th> */}
                                     </tr>
-                                    <tr>
+                                    {/* <tr>
                                         <th className="highlight1 border border-black w-[30%]">IFSC Code</th>
                                         <th className="highlight1 border border-black w-[35%]">IBKL0000001</th>
                                     </tr>
@@ -285,7 +285,7 @@ function Register() {
                                     <tr>
                                         <th className="highlight1 border border-black w-[30%]">Branch</th>
                                         <th className="highlight1 border border-black w-[35%]">Indore</th>
-                                    </tr>
+                                    </tr> */}
                                 </tbody>
                             </table>
 
@@ -295,7 +295,7 @@ function Register() {
                         </div>
 
                     </div>
-                    <div><p className="leading-relaxed  mt-2 sm:text-xl font-semibold text-black text-sm text-justify ">**For paying through UPI, Scan the QR Code on the rigth side</p></div>
+                    <div><p className="leading-relaxed  mt-2 sm:text-xl font-semibold text-black text-sm text-justify ">**For paying through QR, Scan the QR Code on the right side</p></div>
                 </div>
 
 

@@ -74,7 +74,6 @@ const HomePage = () => {
             
 
             <section className="text-gray-600 body-font mt-4">
-<br></br>
 
             <h1 className="text-2xl text-black mt-2 text-center bodyFont">IEEE Application Number : 66496</h1>
             <br></br>
