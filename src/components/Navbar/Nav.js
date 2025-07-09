@@ -10,7 +10,7 @@ import ieeeLogo from '../../img/springer.png'
 import ieeeLogo2 from '../../img/ieeelogo2.png'
 import Zoom from 'react-reveal/Zoom';
 import { Slide } from 'react-reveal';
-import downloadBrochure from '../../img/IC-EETA_ Brochure.pdf'
+import downloadBrochure from '../../img/IC-EETA’25 Brochure Updated.pdf'
 import tarmutLogo from '../../img/tarumt-logo.png'
 const Nav = (props) => {
     let location = useLocation();

@@ -267,7 +267,7 @@ function Register() {
 
                                 <tbody>
                                     <tr>
-                                        <th className="highlight1 border border-black w-[30%]">Payment through link<br/>**There is a discount of 1000 Rs if you register before 15 July,2025</th>
+                                        <th className="highlight1 border border-black w-[30%]">Payment through link<br/></th>
                                         {/* <th className="highlight1 border border-black w-[35%]">MEDI-CAPS UNIVERSITY - CEP</th> */}
                                     </tr>
                                     <tr>
