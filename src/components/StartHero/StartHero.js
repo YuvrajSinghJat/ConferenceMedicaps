@@ -3,6 +3,7 @@ import { useState, React, useEffect } from 'react'
 import Nav from '../../components/Navbar/Nav'
 import LoadingBar from 'react-top-loading-bar'
 import './StartHero.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import countapi from "countapi-js";
 
 import home_carousel1 from '../../img/newImage1.jpg'
@@ -33,7 +34,7 @@ const StartHero = (props) => {
                 onLoaderFinished={() => setProgress(0)}
                 loaderSpeed={1000}
             />
-    //         {/* <div id="sfc5zh2zf9dc5hxu165btr7fayzur3nd1pm"></div><script type="text/javascript" src="https://counter6.optistats.ovh/private/counter.js?c=5zh2zf9dc5hxu165btr7fayzur3nd1pm&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free hit counter"><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=5zh2zf9dc5hxu165btr7fayzur3nd1pm" border="0" title="free hit counter" alt="free hit counter" /></a></noscript>
+           {/* <div id="sfc5zh2zf9dc5hxu165btr7fayzur3nd1pm"></div><script type="text/javascript" src="https://counter6.optistats.ovh/private/counter.js?c=5zh2zf9dc5hxu165btr7fayzur3nd1pm&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free hit counter"><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=5zh2zf9dc5hxu165btr7fayzur3nd1pm" border="0" title="free hit counter" alt="free hit counter" /></a></noscript>
                 // <a href="https://www.freecounterstat.com" title="free hit counter"><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=5zh2zf9dc5hxu165btr7fayzur3nd1pm" border="0" title="free hit counter" alt="free hit counter" /></a> */}
 
             <article className='container mx-auto'>
@@ -68,9 +69,9 @@ const StartHero = (props) => {
                             alt="..."
 
                         />
-                        {/* <div className="carousel-caption hidden md:block absolute top-0"> */}
-                        {/* <div class="elfsight-app-4b214d3a-61a9-408d-aaaa-876db82c8b51" color='text-white'></div> */}
-                        {/* </div> */}
+                        <div className="carousel-caption hidden md:block absolute top-0">
+                        <div class="elfsight-app-4b214d3a-61a9-408d-aaaa-876db82c8b51" color='text-white'></div>
+                        </div>
                         <div className="carousel-caption hidden md:block absolute text-center">
 
                             <h5 className="text-2xl">Initiated By Medi-Caps University </h5>
@@ -78,63 +79,63 @@ const StartHero = (props) => {
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        {/* <img
+                        <img
                             src={home_carousel2}
                             className="block w-full carouselImage"
                             alt="..." style={{
                                 objectPosition: "top"
                             }}
-                        /> */}
+                        />
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        {/* <img
+                        <img
                             src={home_carousel3}
                             className="block w-full carouselImage"
                             alt="..." style={{
                                 objectPosition: "top"
                             }}
-                        /> */}
+                        />
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        {/* <img
+                        <img
                             src={home_carousel4}
                             className="block w-full carouselImage" style={{
                                 objectPosition: "top"
                             }}
                             alt="..."
-                        /> */}
+                        />
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        {/* <img
+                        <img
                             src={home_carousel9}
                             className="block w-full carouselImage" style={{
                                 objectPosition: "top"
                             }}
                             alt="..."
-                        /> */}
+                        />
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        {/* <img
+                        <img
                             src={home_carousel5}
                             className="block w-full carouselImage" carouselimage="true"
                             alt="..."
-                        /> */}
+                        />
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
