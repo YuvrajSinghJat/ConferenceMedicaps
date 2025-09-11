@@ -41,6 +41,7 @@ import keyNoteSpeakers8 from "../../img/keyNoteSpeakers8.jpg"
 import keyNoteSpeakers9 from "../../img/keyNoteSpeakers9.jpg"
 import keyNoteSpeakers10 from "../../img/keyNoteSpeakers10.jpg"
 import INTERNATIONAL_CONFERENCE_ALERTS from "../../img/INTERNATIONAL-CONFERENCE-ALERTS.png"
+import All_Conference_Alert from "../../img/All-conference-alert.png"
 
 const HomePage = () => {
     const [progress, setProgress] = useState(100);
@@ -331,6 +332,18 @@ const HomePage = () => {
                             <a href="https://internationalconferencealerts.com/" target="_blank">
                                 <div className="h-full flex flex-col items-center text-center justify-center ">
                                     <img alt="International Conference Alerts" className="flex-shrink-0 rounded-lg w-56 h-auto  mb-4" src={INTERNATIONAL_CONFERENCE_ALERTS} />
+                                </div>
+                                </a>
+                            </div>
+                         
+                        </Zoom>
+
+                                                <Zoom>
+                        
+                            <div className="p-4 lg:w-1/4 md:w-1/2">
+                            <a href="https://allconferencealert.net/" target="_blank">
+                                <div className="h-full flex flex-col items-center text-center justify-center ">
+                                    <img alt="All Conference Alerts" className="flex-shrink-0 rounded-lg w-56 h-auto  mb-4" src={All_Conference_Alert} />
                                 </div>
                                 </a>
                             </div>

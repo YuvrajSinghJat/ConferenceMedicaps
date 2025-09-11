@@ -363,12 +363,12 @@ const ProgrameComitte = () => {
     ]
 
     const generalChair = [
-        "Prof. Pramod S. Nair, Dean Engineering"
+        "Prof. Pramod S. Nair, Dean Engineering Medicaps University"
     ]
 
     const conferenceCoChairs = [
-        "Prof. Rajendra K Shukla",
-        "Prof. Ts. Dr. Lim Li Li"
+        "Prof. Rajendra K Shukla, Head CIC",
+        "Prof. Ts. Dr. Lim Li Li, Dean Engineering TARUMT"
     ]
 
     const technicalProgramCommitteeChairs = [

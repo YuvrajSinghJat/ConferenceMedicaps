@@ -8,6 +8,7 @@
     import aboutMedi3 from '../../img/aboutMedi3-min.jpg'
     import aboutMedi4 from '../../img/aboutMedi4-min.jpg'
     import Nav from '../../components/Navbar/Nav'
+    import NewMedicapsLogo from '../../img/LinearBlackNewLogo.png'
 
 
     function AboutMedicaps() {
@@ -23,6 +24,7 @@
 
                                 <h1 className='sm:text-4xl text-xl font-black text-white sm:ml-12 bodyFont2'>ABOUT MEDI-CAPS UNIVERSITY
                                 </h1>
+          
                                 <img className='ml-3' src={"https://www.medicaps.ac.in/public/frontend/images/footer-logo.webp"} alt="" width={100} />
                             </div>
 

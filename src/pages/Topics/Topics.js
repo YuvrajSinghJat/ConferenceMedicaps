@@ -9,147 +9,84 @@ import Footer from '../../components/Footer/Footer'
 import StartHero from '../../components/StartHero/StartHero';
 const Topics = () => {
     const [progress, setProgress] = useState(100);
-    const mechanicalEngineering = [
-        // "Materials Engineering",
-        // "Thermal and Fluid Sciences",
-        "Dynamics and Control Systems",
-        "Design and Optimization",
-        "Advanced Manufacturing Techniques",
-        "Robotics and Mechatronics",
-        "Aerospace Engineering",
-        "Automotive Engineering",
-        // "Tribology",
-        "Computational Mechanics and Modelling",
-        "Sustainable Engineering",
-        "Noise and Vibration Control",
-        "Innovations in Space Exploration",
-        "Satellite Technologies for Earth Monitoring",
-        "Engineering Challenges in Space Missions",
-        "Commercialization of Space Technologies"
-    ]
+    const mechanicalEngineering =[
+    "Materials Engineering",
+    "Thermal and fluid sciences drive advancements in design and optimization",
+    "Robotics and mechatronics enhance manufacturing",
+    "Tribology and computational mechanics address challenges",
+    "Innovations in space exploration support Earth monitoring and commercialization"
+  ];
+
     
     const civilEngineering = [
-        // "Sustainable Infrastructure Technologies",
-        "Smart and Resilient Structures",
-        // "Geotechnical Engineering",
-        "Intelligent Transportation Systems",
-        "Water Resource Management Innovations",
-        "Construction Automation and Robotics",
-        "Urban Analytics for Smart Cities",
-        // "Environmentally Sustainable Materials",
-        // "Performance-Based Structural Design",
-        "Digital Twin Technology in Civil Engineering",
-        // "Climate-Resilient Infrastructure",
-        "Augmented Reality (AR) in Construction",
-        "Remote Sensing and Geospatial Technologies",
-        "Innovative Waste Management Solutions",
-        "Disaster Resilience Strategies"
-    ]
-        const electricalEngineering = [
-        "Smart Grid Technologies and Energy Management",
-        "Advanced Power Electronics and Drives",
-        "Renewable Energy Integration (Solar, Wind, etc.)",
-        "Internet of Things (IoT) for Smart Cities",
-        "Machine Learning for Signal Processing and Communications",
-        "Electric Vehicle Technologies and Infrastructure",
-        "Cyber-Physical Systems in Electrical Engineering",
-        "Advanced Control Systems and Automation",
-        "Smart Sensors and IoT Devices",
-        "Wireless Communication (5G and Beyond)",
-        "Energy Storage Innovations (Batteries, Supercapacitors)",
-        "Photovoltaic Systems and Emerging Solar Technologies",
-        "Artificial Intelligence in Power System Optimization",
-        "Electromagnetic Compatibility and Interference Mitigation",
-        "Robotics and Automation in Systems"
-    ]
-        const computerTechnologies = [
-        "Artificial Intelligence and Machine Learning",
-        "Cloud Computing and Virtualization",
-        "Data Science and Big Data Technologies",
-        "Cybersecurity and Cryptography",
-        "Internet of Things (IoT) and Embedded Systems",
-        "Human-Computer Interaction (HCI) and User Experience",
-        "Blockchain and Distributed Ledger Technologies",
-        "Computer Vision and Image Processing",
-        "Quantum Computing",
-        "Digital Transformation and Industry 4.0",
-        "Cognitive Computing and Intelligent Systems",
-        "Green Computing: Sustainable IT Solutions",
-        "Hyperloop Technology: Revolutionizing Transportation",
-        "Precision Agriculture",
-        "Graph Theory and Combinatorics",
-        "Mathematical Logic and Foundation",
-        "Number Theory",
-        "Numerical Analysis and Computational Mathematics",
-        "Probability and Statistics",
-        "Modeling and Simulation",
-        "Game Theory",
-        "Cryptography",
-        "Operation Research",
-        "Image Processing and Fixed Point Theory",
-        "Optimization Theory",
-        "Discrete Mathematics",
-        "Fuzzy Theory",
-        "Computer Aided Geometrical Designs Using Splines",
-        "General Mathematical Research and Multidisciplinary"
-          
-    ]
-        const theSpectrum = [
-        "Sustainable Industry Practices",
-        "Circular Economy Models",
-        "Energy-Efficient Technologies",
-        "Health and Safety Innovations",
-        "Smart Manufacturing Practices",
-        "Automation and Robotics in Manufacturing",
-        "Digital Twins and Simulation in Industry",
-        "Artificial Intelligence Integration",
-        "Interoperability of IoT Devices",
-        "Industry 5.0: Human-Centric Approaches",
-        "Smart Wearables for Industry",
-        "Global Supply Chain Dynamics",
-        "Quality and Innovation Management Practices",
-        "Technology Transfer and Commercialization Research",
-        "Innovation Barriers",
-        "Adapting to Hybrid Work Models",
-        "Interdisciplinary Integration Issues",
-        "Privacy and Security",
-        "Environmental Impact of Technology",
-        "Industry Case Studies"
-    ]
+  "Smart structures leverage innovations to enhance urban infrastructure",
+  "Water resource management",
+  "Sustainable materials",
+  "Construction automation and robotics enable physical resilience",
+  "Strategies support performance-based design and climate resilience",
+  "Innovative waste management strategies",
+  "Disaster resilience strategies address urban challenges"
+];
 
-    const emergingEngineeringTechnologies = [
-        // "Materials Engineering",
-        // "Thermal and Fluid Sciences",
-        "Dynamics and Control Systems",
-        "Design and Optimization",
-        "Advanced Manufacturing Techniques",
-        "Robotics and Mechatronics",
-        "Aerospace Engineering",
-        "Automotive Engineering",
-        // "Tribology",
-        "Computational Mechanics and Modelling",
-        "Sustainable Engineering",
-        "Noise and Vibration Control",
-        "Innovations in Space Exploration",
-        "Satellite Technologies for Earth Monitoring",
-        "Engineering Challenges in Space Missions",
-        "Commercialization of Space Technologies",
-        // "Sustainable Infrastructure Technologies",
-        "Smart and Resilient Structures",
-        // "Geotechnical Engineering",
-        "Intelligent Transportation Systems",
-        "Water Resource Management Innovations",
-        "Construction Automation and Robotics",
-        "Urban Analytics for Smart Cities",
-        // "Environmentally Sustainable Materials",
-        // "Performance-Based Structural Design",
-        "Digital Twin Technology in Civil Engineering",
-        // "Climate-Resilient Infrastructure",
-        "Augmented Reality (AR) in Construction",
-        "Remote Sensing and Geospatial Technologies",
-        "Innovative Waste Management Solutions",
-        "Disaster Resilience Strategies"
-    ]
+        const electricalEngineering = [
+        "Smart grid technologies and energy management enhance renewable energy integration",
+        "IoT applications and machine learning support advanced power systems and electric vehicle infrastructure",
+        "Innovations in energy storage",
+        "Wireless communication",
+        "Smart sensors drive automation",
+        "AI optimizes power systems"
+];
+        const computerTechnologies =  [
+  "AI and ML boost data science",
+  "Cloud computing enhances scalability and cybersecurity",
+  "IoT connects devices",
+  "Blockchain secures transactions",
+  "Quantum computing drives digital transformation",
+  "Green computing drives digital transformation",
+  "Hyperloop innovations revolutionize industries",
+  "Precision agriculture revolutionizes industries"
+];
+
+const electronicAndCommuincation = [
+  "Communication systems",
+  "Signal processing",
+  "Embedded systems",
+  "Telecommunications",
+  "VLSI design",
+  "Automation"
+];
+
+
+        const theSpectrum = [
+  "Eco-friendly methods",
+  "Circular economy models",
+  "Human-centric approaches in Industry 5.0",
+  "Global supply chain dynamics",
+  "Quality management",
+  "Privacy and security",
+  "Environmental impacts",
+  "Supported by relevant case studies"
+];
+ 
+
+const mathematics = [
+  "Game Theory",
+  "Cryptography",
+  "Operation Research",
+  "Optimization Theory",
+  "Fuzzy Theorem",
+  "Computer Aided Geometrical Designs Using Splines",
+  "Graph Theory and Combinatorics",
+  "Mathematical and Logical Foundation",
+  "Number Theory",
+  "Numerical Analysis and Computational Mathematics",
+  "Probability and Statistics",
+  "Modeling and Simulation",
+  "Image Processing and Fixed Point Theory",
+  "Discrete Mathematics",
+  "General Mathematical Research",
+  "Multidisciplinary Research"
+];
     
     return (
         <>
@@ -243,10 +180,12 @@ const Topics = () => {
                         {/* <div className="text-center">
                             <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span>
                         </div> */}
-                        <div className="text-4xl my-6 text-[#293985] font-bold bodyFont2">Track 1 : ELECTRICAL ENGINEERING</div>
+
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 1 : MECHANICAL ENGINEERING</div>
+
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
-                                electricalEngineering.map((element) => (
+                                mechanicalEngineering.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
                                         <div className="rounded flex p-4 h-full items-center borderTopic gradientColor">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
@@ -260,45 +199,101 @@ const Topics = () => {
                         <div className="text-center">
                             <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                         </div>
-                        <div className="text-4xl my-6 text-[#293985] font-bold bodyFont2">Track 2 : COMPUTER TECHNOLOGIES AND ITS APPLICATIONS</div>
+
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 2 : CIVIL ENGINEERING</div>
+
+                        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                            {
+                                civilEngineering.map((element) => (
+                                    <div className="p-2 sm:w-1/2 w-full" key={element}>
+                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic gradientColor">
+                                            <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
+                                            <span className="font-bold text-white sm:text-[1.3] text-sm">{element}</span>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+
+                        </div>
+                        <div className="text-center">
+                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
+                        </div>
+
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 3 : ELECTRICAL ENGINEERING</div>
+
+
+                        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                            {
+                                electricalEngineering.map((element) => (
+                                    <div className="p-2 sm:w-1/2 w-full" key={element}>
+                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic gradientColor">
+                                            <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
+                                            <span className="font-bold text-white sm:text-[1.3] text-sm">{element}</span>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+
+                        </div>
+                        <div className="text-center">
+                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
+                        </div>
+
+
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 4 : COMPUTER TECHNOLOGIES AND ITS APPLICATIONS</div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
                                 computerTechnologies.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
-                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic gradientColor">
+                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
-                                            <span className="font-bold text-white sm:text-[1.3] text-sm">{element}</span>
+                                            <span className="font-bold text-black sm:text-[1.3] text-sm">{element}</span>
                                         </div>
                                     </div>
                                 ))
                             }
 
                         </div>
-                        <div className="text-center">
-                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
-                        </div>
-                        <div className="text-4xl my-6 text-[#293985] font-bold bodyFont2">Track 3 : THE SPECTRUM OF INDUSTRIAL PRACTICES AND CHALLENGES</div>
+
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 5 : Electronic And Communication </div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
-                                theSpectrum.map((element) => (
+                                electronicAndCommuincation.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
-                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic gradientColor">
+                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
-                                            <span className="font-bold text-white sm:text-[1.3] text-sm">{element}</span>
+                                            <span className="font-bold text-black sm:text-[1.3] text-sm">{element}</span>
                                         </div>
                                     </div>
                                 ))
                             }
 
                         </div>
-                        <div className="text-center">
-                            <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
-                        </div>
 
-                        <div className="text-4xl my-6 text-[#293985] font-bold bodyFont2">Track 4 : Emerging Engineering Technologies</div>
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 6 : THE SPECTRUM OF INDUSTRIAL PRACTICES AND 
+CHALLENGES</div>
                         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                             {
-                                emergingEngineeringTechnologies.map((element) => (
+                               theSpectrum.map((element) => (
+                                    <div className="p-2 sm:w-1/2 w-full" key={element}>
+                                        <div className="bg-[#57B7E7] rounded flex p-4 h-full items-center borderTopic">
+                                            <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
+                                            <span className="font-bold text-black sm:text-[1.3] text-sm">{element}</span>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+
+                        </div>
+
+                        
+                        <div className="text-4xl my-6 text-black font-bold bodyFont2">Track 7 : MATHEMATICS ANS ITS APPLICATION IN VARIOUS 
+FILEDS</div>
+
+
+                        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                            {
+                               mathematics.map((element) => (
                                     <div className="p-2 sm:w-1/2 w-full" key={element}>
                                         <div className="rounded flex p-4 h-full items-center borderTopic gradientColor">
                                             <i className="fa-solid fa-lightbulb mr-4 fa-xl iconclrps"></i>
