@@ -8,6 +8,7 @@
     import aboutMedi3 from '../../img/aboutMedi3-min.jpg'
     import aboutMedi4 from '../../img/aboutMedi4-min.jpg'
     import Nav from '../../components/Navbar/Nav'
+    import NewMedicapsLogo from '../../img/LinearBlackNewLogo.png'
 
 
     function AboutMedicaps() {
@@ -21,9 +22,9 @@
 
                             <div className="flex items-center mb-3 mr-8 justify-center gradientColor" >
 
-                                <h1 className='sm:text-4xl text-xl font-black text-white sm:ml-12 bodyFont2'>ABOUT MEDI-CAPS UNIVERSITY
+                                <h1 className='sm:text-4xl text-xl font-black text-white sm:ml-12 bodyFont2'>ABOUT MEDICAPS UNIVERSITY
                                 </h1>
-                                <img className='ml-3' src={"https://www.medicaps.ac.in/public/frontend/images/footer-logo.webp"} alt="" width={100} />
+                                {/* <img className='ml-4' src={NewMedicapsLogo} alt="" width={100} /> */}
                             </div>
 
                             {/* IMAGE SECTION */}
@@ -67,7 +68,7 @@
                                     </div>
                                 </div>
                             </section>
-                            <p className="leading-relaxed  mt-12 sm:text-xl text-sm font-semibold text-black">Medi-Caps University is one of the brand name in the arena of technical education and contributing in making Indore an educational hub. Since its inception in July 2000, the group consistently aims at creating an ideal ambiance for budding technocrats and helping them grow like professionals. The main strength of Medi-Caps University is its highly qualified faculty. We have optimal blend of academic brilliance and industry exposure, which is supplemented by highly specialized visiting faculty and industry experts, Medical senior professionals from various segments of different industry/ business houses. This helps in refining the works, candidature of our students from different fields.</p>
+                            <p className="leading-relaxed  mt-12 sm:text-xl text-sm font-semibold text-black">Medicaps University is one of the brand name in the arena of technical education and contributing in making Indore an educational hub. Since its inception in July 2000, the group consistently aims at creating an ideal ambiance for budding technocrats and helping them grow like professionals. The main strength of Medicaps University is its highly qualified faculty. We have optimal blend of academic brilliance and industry exposure, which is supplemented by highly specialized visiting faculty and industry experts, Medical senior professionals from various segments of different industry/ business houses. This helps in refining the works, candidature of our students from different fields.</p>
                         </div>
                         <div className="text-center">
                             <span className="inline-block h-1 w-24 mt-8rounded bg-[#a21d2e] mt-8 mb-6"></span>
@@ -77,13 +78,13 @@
                                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                                     <h1 className="sm:text-4xl text-3xl mb-8 font-black bodyFont2 gradientHeading">VISION
                                     </h1>
-                                    <p className="mb-8 leading-relaxed text-black sm:text-xl font-semibold text-sm text-justify">Be an internationally acclaimed University recognised for its excellent teaching, research, innovation, outreach and creating top class technocrats and professionals who can serve mankind as multi skilled global citizens.</p>
+                                    <p className="mb-8 leading-relaxed text-black sm:text-xl font-semibold text-sm text-justify">To build an institutional ecosystem that equips and inspires the next generation of society-ready professionals with a core belief that knowledge is power.</p>
 
                                 </div>
 
 
                                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                                    <img className="object-cover object-center rounded " alt="hero" src="https://www.medicaps.ac.in/sitefront/university/assets/img/vision-img.jpg" />
+                                    <img className="object-cover object-center rounded " alt="hero" src="https://www.medicaps.ac.in/public/frontend/images/the-university-img1.webp" />
                                 </div>
                             </div>
                             <div className="text-center mt-0">
@@ -95,23 +96,20 @@
                                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                                     <h1 className="sm:text-4xl text-3xl mb-8 font-black text-black bodyFont2 gradientHeading">MISSION
                                     </h1>
-                                    <p className="mb-8 leading-relaxed text-black sm:text-xl font-semibold text-sm">
-                                        <ul>
-                                                <li># Establish state-of-the-art facilities for world class education and research.</li>
-                                                <li># Conduct scholarly research and creative endeavors that impact quality of life.</li>
-                                                <li># Attract quality staff and students to cater for diverse needs and preferences and widen participation.</li>
-                                                <li># Build a foundation for students to be successful at all levels through high-quality, innovative programs.</li>
-                                                <li># Collaborate with institute, industry, and society to address current issues through research and align curriculum.</li>
-                                                <li># Involve in societal outreach programs to identify concerns and provide sustainable ethical solutions.</li>
-                                                <li># Encourage life-long learning and team-based problem solving through an enabling environment.</li>       
-                                        </ul>
-</p>
+                                    {/* <p className="mb-8 leading-relaxed text-black sm:text-xl font-semibold text-sm"> */}
+                                            <ul className='list-disc marker:text-[#a21d2e] list-outside text-left'>
+                                                <li>Emerge as the most sought-after higher education institution in central India with state-of-the-art resources and experienced faculty members.</li>
+                                                <li>Nurture an academic environment at par with global standards of pedagogy that is conducive to experiential learning, and research to create a positive impact in the journey of nation-building.</li>
+                                                <li>Cultivate a vibrant ecosystem for professional and intellectual growth beyond the classrooms to empower individuals to become responsible global citizens, lifelong learners, and ethical leaders.</li>
+                                                <li>Engage and collaborate with academic institutions, business organizations, and communities to address contemporary challenges through research and growth initiatives.</li>
+                                            </ul>
+                                    {/* </p> */}
 
                                 </div>
 
 
                                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                                    <img className="object-cover object-center rounded " alt="hero" src="https://res.cloudinary.com/gumlapolytechnic/image/upload/v1592215842/General/mission.png" />
+                                    <img className="object-cover object-center rounded " alt="hero" src="https://www.medicaps.ac.in/public/frontend/images/academic-collaboration-img.webp" />
                                 </div>
                             </div>
                             <div className="text-center mt-0">

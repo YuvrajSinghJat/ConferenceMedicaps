@@ -1,406 +1,226 @@
 import React from 'react'
-import StartHero from '../../components/StartHero/StartHero'
 import Footer from '../../components/Footer/Footer'
 import Nav from '../../components/Navbar/Nav';
 import './ProgramComitte.css'
 const ProgrameComitte = () => {
     const chiefPatron = ["Shri R.C. Mittal, Chancellor","Shri Gopal Agrawal, Pro Chancellor","Shri Palash Garg, OSD to Chancellor","Ms. Saloni Garg, Director Promotion & Branding"]
     const patron = [ "Prof. D.K. Patnaik, Vice Chancellor" , "Prof. Birajashis Pattnaik, Pro Vice Chancellor"]
-    const conferenceChair = ["Prof. Pramod S. Nair"]
-    const conferenceCoChair = ["Prof. Rajendra K Shukla"]
     const convener = [
-        "Prof. Santosh S. Raghuwanshi",
-        "Prof.Chayan Gupta"
-    ]
+  "Prof. Santosh S. Raghuwanshi",
+  "Prof. Chayan Gupta",
+  "Prof. Chitresh Nayak"
+];
+
     const conferenceSectery = [
-        "Prof. Vipin Sharma (Editor)",
-        "Prof. Sanjay Mohite (Finance)",
-        "Prof. Ram Bansal (Publication)",
-        "Prof. Sanjiv Kumar Jain (Tech)",
-        "Prof. Chitresh Nayak (Tech)",
-        "Prof. Ravindra Pathak (Collaboration)",
-        "Prof. Rohini C Kale (Marketing & Promotion)"
-    ];
+  "Prof. Ravindra Pathak", "Prof. Sanjiv Kumar Jain",
+  "Prof. Vipin Sharma", "Prof. Ram Bansal",
+  "Prof. Sanjay Mohite", "Prof. Rohini C Kale"
+];
 
-    const programChair = [
-        "Mr. P. Siluvainathan",
-        "Dr. V Ganeshan",
-        "Dr. Shilpa Tripathi",
-        "Dr. A A Koser",
-        "Dr. S D Upadhyay",
-        "Dr. Sanjay Jain",
-       " Dr. S D Upadhyay"
-    ];
+    const programChair =[
+    "Prof. P. Siluvainathan",
+    "Prof. V. Ganeshan",
+    "Prof. Shilpa Tripathi",
+    "Prof. Ajay Kulkarni",
+    "Prof. D. Srinivasa Rao",
+    "Prof. Sarita Kansal",
+    "Prof. Vidhya Samad Barfa"
+  ];
 
-    const conferenceCoOrdinators = ["Prof. Rajendra Shukla", "Prof. Shilpa Tripathi", "Prof. Ajay Kulkarni", "Prof. Jitendra Choudhary", "Prof. Prashant Panse", "Prof. M. Murli", "Prof. Anil Patidar", "Prof. V. Ganeshan"];
-    const oragnizingCommittee = [
-        "Prof. Thirugnanasamban K G",
-        "Prof. Rupesh Chalisgaonkar",
-        "Prof. Amit Kulkarni",
-        "Prof. Jayesh Padmakar Barve",
-        "Prof. Manish Kumar Thakur",
-        "Prof. Ramjanm Singh",
-        "Prof. Amit Vijay Kulkarni",
-        "Prof. Prashant Raghuwanshi",
-        "Prof. Himanshu Shekhar",
-        "Prof. Deepak Porwal",
-        "Prof. Neha Verma",
-        "Prof. Khaliq Ahmad",
-        "Prof. Ajit Jain",
-        "Prof. Babanpreet Singh",
-        "Prof. Alok Rarotiya",
-        "Prof. Ruchir Lashkari",
-        "Prof. Deepak Jain",
-        "Prof. Sachin Putambekar",
-        "Prof. Juned S Siddiki",
-        "Prof. Vidhya Barpha"
-    ];
-    const technicalCommitee = ["Prof. Sanket Gupta ","Prof. Kailash Bandhu"]
-    const publicationCommitte = [
-        "Prof. Vipin Sharma (Coordinator)",
-        "Prof. Deepak Porwal (EE)",
-        "Prof. Surya Pratap (CE)",
-        "Prof. Akbar Ali (ME)"
-    ]
-    const sponsorshipCommittee = [
-        "Prof. Sanjay Mohite (Coordinator)",
-        "Prof. Nishant Dwivedi (EE)",
-        "Prof. Surya Pratap Singh (CE)",
-        "Dr. Akbar Ali (ME)"
-    ]
-    
-    const registrationAndCertificateDistributionCommittee = [
-        "Prof. Irfan Khan (Coordinator)",
-        "Prof. Preeti Singh (EE)",
-        "Prof. Monika Pagare (CE)",
-        "Prof. Nisha Kumari (ME)"
-    ]
-    
-    const stageCommittee = [
-        "Prof. Alok Rarotiya (Coordinator)",
-        "Prof. Neha Verma (EE)",
-        "Prof. Parag Chaporkar (ME)",
-        "Prof. Pradeep Kumar Mehta (ME)"
-    ]
-    const anchoringCommittee = [
-        "Prof. Deepak Jain (Coordinator)",
-        "Prof. Khaliq Ahmad (EE)",
-        "Prof. Ritu Maheswari (CSE)"
-    ]
-    const keynoteSpeakerCommittee= [
-        "Prof. Ravindra Pathak (Coordinator)",
-        "Prof. Rupesh Chalisgaonkar",
-        "Prof. Himanshu Shekar (EE)",
-        "Dr. Rohini C Kale (CE)",
-        "Dr. Swati Mishra (ME)",
-        "Prof. Pankaj Shrivastava (ME)"
-    ]
 
-    const hospitalityCommittee = [
-        "Prof. Dharmendra Mangal (Coordinator)",
-        "Ms. Sharda Patwa (EE)",
-        "Prof. Vinay Joshi (CE)",
-        "Prof. Rituraj Raghuvanshi (ME)",
-        "Prof. Abhishek Shrotriya (ME)"
-    ]
-    
-    const reviewerCommittee = [
-        "Dr. Chitresh Nayak (Coordinator)",
-        "Prof. Anurag S. Yadav (EE)",
-        "Dr. Shyam Birla (ME)",
-        "Dr. Deepak Yadav (ME)",
-        "Dr. Vivek Mishra (ME)",
-        "Dr. Rupesh Chalisgaonkar (ME)",
-        "Dr. Rajesh Kumar (ME)",
-        "Dr. Swati Mishra (ME)",
-        "Dr. Anuj Kumar Jain (ME)",
-        "Dr. Mohit Pramod Sharma (ME)",
-        "Prof. Aranav Debnath (CE)",
-        "Prof. Kuldeep Swarokar (CE)",
-        "Prof. Babanpreet Singh (CE)",
-        "Prof. Alok Rarotiya (CE)"
-    ]
-    
-    const logisticsCommittee =  [
-        "Prof. Yash Mothe (Coordinator)",
-        "Prof. K. Vijetha (EE)",
-        "Prof. Lekhraj Patidar (ME)",
-        "Prof. Sunil Kumar Patidar (ME)",
-        "Prof. Rahul Thakur (ME)",
-        "Prof. Ashwin Parihar (CE)",
-        "Prof. Kuldeep Swarokar (CE)"
-    ]
-    
-    const networkingCommittee = [
-        "Prof. Sanket Gupta (Coordinator)",
-        "Prof. Nishant Dwivedi (EE)",
-        "Prof. Neeraj Yadav (ME)",
-        "Prof. Yash Mothe (CE)",
-        "Dr. Ajay Sinha (CE)",
-        "Prof. Nakul Bansod (ME)"
-    ]
-    
-    const volunteersCommittee = [
-        "Prof. Ruchir Laskari (Coordinator)",
-        "Prof. Gaurav Patel (ME)",
-        "Prof. Bhupendra Singh Sikarwar (ME)",
-        "Prof. Devendra Patel (ME)",
-        "Prof. Manoj Kumar Gangwar (ME)"
-    ]
-    
-    const feedbackCommittee = [
-        "Prof. Vipin Sharma (Coordinator)",
-        "Prof. Deepak Porwal (EE)",
-        "Prof. Ankit Soni (CE)",
-        "Prof. Hitesh Agrawal (ME)"
-    ]
-    
-    const culturalCommittee =  [
-        "Prof. Preeti Jain"
-    ]
-    
-    const outreachCommittee = [
-        "Prof. Ram Janam Singh (Coordinator)",
-        "Prof. Ram Bansal (ME)",
-        "Prof. Deepak Patel"
-    ]
-    const sponsorshipandFinanceCommittee = [
-        "Prof. Sanjay Mohite (Coordinator)",
-        "Prof. Nishant Dwivedi",
-        "Prof. Siddheswar Kar",
-        "Prof. Pankaj Shrivastava",
-        "Prof. Prabhat Patel",
-        "Prof. Ajit Jain",
-        "Prof. Lekhraj Patidar"
-    ]
-    
-
-    const marketingandPromotionCommittee = [
-        "Prof. Rohini C Kale (Coordinator)",
-        "Prof. Priti Singh (EE)",
-        "Prof. Siddeshwar Kar (EE)",
-        "Prof. Anurag Yadav (EE)",
-        "Prof. Sharda Patwa (EE)"
-    ]
-    
-    const CMTplatformCommittee = [
-        "Prof. Chitresh Nayak (Coordinator)",
-        "Prof. Sanjiv Kumar Jain (EE)",
-        "Prof. Kailsh Bandhu (CSE)",
-        "Prof. Sanket Gupta (CSE)"
-    ]
-    
-    const mediaAndPublicity = [
-        "Prof. Rita Nagwal (ME)",
-        "Prof. Anshuman Purohit (ME)",
-        "Prof. Ubaid I. Hanfee (CE)"
-    ]
-    
-    const websiteCommittee = [
-        "Prof. Thirugnanasamban KG (Coordinator)",
-        "Prof. Ram Bansal (ME)",
-        "Prof. Neha Verma (EE)"
-    ]
-            
-    // const publicityChair = ["Hemant Kr. Pathak", "Sachin Solanki", "Ram Bansal", "Vishal Sharma"]
-    // const programCommittee = ["Prof. Vipin Tyagi", "Prof. Durgesh K. Mishra", "Prof. MPS Chawla", "Prof. Vrinda Tokekar", "Prof. Richa Gupta", "Prof. Kamal Sethi", "Prof. Rashid Sheikh", "Prof. Shilpa Bhalerao", "Prof. Pravin Gupta", "Prof. G. S. Tomar", "Prof. Suresh Jain", "Prof. Sharvani Mathur"]
     const internationalAdvisoryCommitte1 = [
-        "Dr. G S Tomar, Chairperson",
-        "Dr. Manish Dixit, Vice Chairperson",
-        "Dr. Mamath Badapanda, Vice Chairperson",
-        "Prof. M P S Chawla, Treasurer",
-        "Dr. Vijayalaxmi, Secretary & WIE Chair",
-        "Dr. Durgesh Kumar Mishra, Chair CS",
-        "Dr. Amit Raje",
-        "Dr. Jitendra Agrawal",
-        "Dr. Amit Ojha",
-        "Dr. Somesh Kumar, Chair SAC",
-        "Dr. Ashish Singhal, Vice-Chair SAC",
-        "Prof. Anurag Srivastava, WS University USA",
-        "Prof. Brij N. Singh, North Dakota USA",
-        "Prof. Kwang Lee, BB University USA",
-        "Prof. T K Sarkar, Syracuse University NY",
-        "Prof. K. P. Wang, Sydney University Australia",
-        "Prof. Rajesh Verma, VC Rani Durgavati Vishwavidyalaya",
-        "Prof. S.K. Singh VC, Rajasthan Technical University Kota",
-        "Prof. Bharat Charan Singh, Chairman MPPURC",
-        "Prof. Istovan Erlich, DE University Germany",
-        "Prof. L Lai, City University London",
-        "Prof. K. N. Srivastava, ABB Sweden",
-        "Prof. Ambrish Chandra, Montreal Canada",
-        "Prof. Jai Govind, AIT Bangkok",
-        "Prof. Fushuan Wen, China",
-        "Prof. Maode Ma NTU, Singapore",
-        "Prof. Satyendra Chauhan, NIT Jaipur",
-        "Prof. Prabin K. Panigrahi, IIM Indore",
-        "Prof. Jawar Singh, IIITDM Jabalpur",
-        "Prof. Mini S. Thomas, JMI New Delhi",
-        "Prof. Sanjay Chauhan, GU Greater Noida",
-        "Prof. Usha Chauhan, GU Greater Noida",
-        "Prof. Ajay Shankar Singh, GU Greater Noida",
-        "Prof. S. C. Srivastava, IIT Kanpur",
-        "Prof. J. Ram Kumar, IIT Kanpur",
-        "Prof. Avadhesh Kumar –PVC, GU",
-        "Prof. Vishnu Sharma, Galgotiyas Gr. Noida",
-        "Prof. Akhilesh Sharma, Manipal Jaipur",
-        "Prof. Parmanand, SU Gr.Noida",
-        "Prof. Ripal Ranpura, Atmiya University",
-        "Prof. Shailesh Tiwari, ABESEC Ghaziabad",
-        "Prof. N. P. Padhy, IIT Rorkee",
-        "Prof. Avadhesh Kumar, PVC GU",
-        "Prof. Vijay Kumar, University of Missouri",
-        "Dr Manish Jaiswal, Director NATRAX Indore",
-        "Mr. Shailesh Mishra, Asst. Vice President at YASH Technologies",
-        "Prof. Ashok Bhansali, Dean GLA University",
-        "Prof. Subhalakshmi Kher, IOWA State University",
-        "Prof. Sunil Kumar Gupta, VC RGPV",
-        "Prof. S.L. Maskara, Retd. Prof. IIT Kharagpur",
-        "Prof. O.P Vyas, IIIT Allahabad",
-        "Prof. Subrat Sanyal, IIT Kharagpur",
-        "Prof. B.K. Saraf, Vice Chairman SOA University",
-        "Prof. Akhilesh Pandey, VC Vikram University",
-        "Prof. C.D. Patil, Professor UEC Ujjain",
-        "Prof. Aditya Trivedi, IIITM Gwalior",
-        "Prof. S. Tapaswi, IIITM Gwalior",
-        "Prof. Anupam Shukla, IIITM Gwalior",
-        "Prof. R.C. Joshi, IIT Roorkee",
-        "Dr. Lovi Raj Gupta, Pro Vice Chancellor at Lovely Professional University | Leading Scientist, NEROMENA, SFedU, Russia | Former Research Collaborator at Stanford University | TEDx Speaker |",
-        "Dr. Nitin Upadhye ,1st degree connection , 1stAssociate Professor at University of Modern Sciences ",
-        "Andrey Kuzmin , Managing Editor of International Journal of Energy for a Clean Environment at Begell House Inc. Publishers",
-        "Dr R K Pandit , Vice Chancellor MITS- Deemed University, Gwalior MP, India",
-        "Prof. Vivek Shrivastava Professor & Dean, NIT Uttarakhand SMIEEE, Fellow(IEI) LMISTE National Institute of Technology  Uttarakhand"
-       ]
+    "Prof. G S Tomar, Chairperson",
+    "Prof. Manish Dixit, Vice Chairperson",
+    "Prof. Manisha Badapanda, Vice Chairperson",
+    "Prof. M P S Chawla, Treasurer",
+    "Prof. Vijayalaxmi, Secretary & WIE Chair",
+    "Prof. Durgesh Kumar Mishra, Chair CS",
+    "Prof. Amit Raje, Chair PE Chapter",
+    "Prof. Jinendra Agrawal, TPAC Chair",
+    "Prof. Amit Ojha, MANIT Bhopal",
+    "Prof. Somesh Kumar, Chair SAC",
+    "Prof. Ashish Singhal, Vice-Chair SAC",
+    "Prof. Shaibal Mukherjee, IIT Indore",
+    "Prof. Ayan Mondal, IIT Indore",
+    "Prof. Kamal Kumar Sethi, Chair Web Management",
+    "Prof. Gaurav Bharti, Chair - Social Media",
+    "Prof. Neha Gupta, Vice Chair SIGHT",
+    "Prof. Pinku Ranjan, ABV-IIITM Gwalior",
+    "Prof. Manish Sawle, Vice Chair, Ethics",
+    "Prof. Ts. Dr Liu Li Li, TARUMT Malaysia",
+    "Prof. Ts. Dr Yip Mum Wai, TARUMT Malaysia",
+    "Prof. Ir. Lim Joo Eng, TARUMT Malaysia",
+    "Prof. Anurag Srivastava, WS University USA",
+    "Prof. Brij N Singh, North Dakota, USA",
+    "Prof. Kwang Lee, BB University USA",
+    "Prof. T K Sarkar, Syracuse University NY",
+    "Prof. K. P. Wang, Sydney University Australia",
+    "Prof. Rajesh Verma, VC RGPV",
+    "Prof. S.K. Singh, VC RTU Kota",
+    "Prof. Bharat Charan Singh, Chairman MPPU RC",
+    "Prof. Istovan Erlich, DE University Germany",
+    "Prof. L. Lai, City University London",
+    "Prof. K. N. Srivastava, ABB Sweden",
+    "Prof. Ambrish Chandra, Montreal Canada",
+    "Prof. Jai Govind, AII Bangkok",
+    "Prof. Fuishuan Wen, China",
+    "Prof. Maode Ma NTU, Singapore",
+    "Prof. Satyendra Chauhan, NIT Jaipur",
+    "Prof. Prabah K. Panigrahi, IIIT Indore",
+    "Prof. Jayor Singh, IIITDM Jabalpur",
+    "Prof. Mini S. Thomas, JMI New Delhi",
+    "Prof. Sanjay Chauhan, GU Greater Noida",
+    "Prof. Akansay Dwivedi, IIT Roorkee",
+    "Prof. Rhunush Kumar, IIT Indore",
+    "Prof. Govind Maheshwari, IET DAVV Indore",
+    "Prof. N. P. Patidar, MANIT Bhopal",
+    "Prof. V. Kumar, MANIT Bhopal",
+    "Prof. Shailendra Kumar Sharma, SGSITS Indore",
+    "Prof. H K Mahiyar, SGSITS Indore",
+    "Prof. Sunil Luthra, Director, T&L Bureau, AICTE",
+    "Prof. Sukanta Basu, DT, Netherlands",
+    "Prof. Ashwini Kumar Sharma, Graphic Era",
+    "Prof. Usha Chauhan, GU Greater Noida",
+    "Prof. Ajay Shankar Singh, GU Greater Noida",
+    "Prof. S. C. Srivastava, IIT Kanpur",
+    "Prof. J. Ram Kumar, IIT Kanpur",
+    "Prof. Avadhesh Kumar, PVC, GU",
+    "Prof. Akhilesh Sharma, Manipal University",
+    "Prof. Premanand, SU, Noida",
+    "Prof. Ravi Panwar, IIT BHU",
+    "Prof. Ranvir S. Panwar, NIMS Chandigarh",
+    "Prof. Satish Sharma, MNIT Jaipur",
+    "Prof. Ripal Ranpura, Atmiya University",
+    "Prof. Shailesh Tiwari, ABESEC Ghaziabad",
+    "Prof. N. P. Padhy, IIT Rorkee"
+];
         
     const internationalAdvisoryCommitte2 = [
-        "Dr. Shaibal Mukherjee, IIT Indore",
-        "Dr. Ayan Mondal, IIT Indore",
-        "Dr. Kamal Kumar Sethi, Chair Web Management, IEEE MP Section",
-        "Dr. Gaurav Bharti, Vice Chair, Social Media, IEEE MP Section",
-        "Dr. Neha Gupta, Vice Chair SIGHT, IEEE MP Section",
-        "Dr. Pinku Ranjan, ABV-IIITM Gwalior",
-        "Dr. Manish Sawle, IEEE MP Section",
-        "Prof. Ts. Dr Lim Li Li, TARUMT, Malaysia",
-        "Prof. Ts. Dr Yip Mum Wai, TARUMT, Malaysia",
-        "Prof. Ir. Lim Joo Eng, TARUMT, Malaysia",
-        "Prof. Kalyan Bandopadhyaya, IIT Kharagpur",
-        "Prof. Santi Prasad Maity, Professor IIEST",
-        "Prof. Akhilesh Tiwari, MITS Gwalior",
-        "Prof. Sanjeev Tokekar, IET DAVV",
-        "Prof. Abhay Dubey, Professor DAVV",
-        "Prof. N.S. Choudhary, IIT Indore",
-        "Prof. P. Abdullah, CUSAT Kerala",
-        "Prof. Abdul Wahid, Maulana Azad Central University Hyderabad",
-        "Prof. D. Kannan, CUSAT Kerala",
-        "Prof. Vargheese Paul, CUSAT Kerala",
-        "Prof. Bhahmajit Singh, Professor NIT",
-        "Prof. Ashok Depbhakta, IEEE Senior Member",
-        "Prof. Kamal Sethi, CSI Indore Chapter",
-        "Prof. Sukumar Mishra, IIT Delhi",
-        "Prof. Asheesh Singh, MNNIT Allahabad",
-        "Prof. S. K. Singh, IIIT Allahabad",
-        "Prof. Anil Gupta, Secretary CSI Indore",
-        "Dr. Biplab Sikdar, NUS, Singapore",
-        "Prof. Mohammad Khalid, Sunway University, Malaysia",
-        "Prof. Dr. Ilhami COLAK, Gazi University, Ankara/Turkey",
-        "Dr. Sukanta Basu, Delft Institute of Technology, Netherlands",
-        "Dr. Firoz Alam, RMIT University, Australia",
-        "Dr. Anant Dubey, Curtin University Australia",
-        "Dr. Ginbar Ensermu Geleta, Wollega University, Ethiopia",
-        "Dr. M. L. Kolhe, University of Agder (Norway)",
-        "Dr. Anand Parey, IIT Indore",
-        "Dr. Deepa Mithra, Qatar University",
-        "Prof. Akshay Dwivedi, IIT Roorkee",
-        "Dr. Ritunesh Kumar, IIT Indore",
-        "Dr. Govind Maheshwari, IET DAVV, Indore",
-        "Dr. N. P. Patidar, MANIT, Bhopal",
-        "Dr. Y. Kumar, MANIT, Bhopal",
-        "Dr. Shailendra Kumar Sharma, SGSITS, Indore",
-        "Dr. R. K. Saxena, SGSITS, Indore",
-        "Dr. H K Mahiyar, SGSITS Indore",
-        "Dr. Amrit Kumar Roy, NIT Hamirpur",
-        "Dr. Mayur Shirish Jain, IIT Indore",
-        "Dr. R N Singh, DAVV, Indore",
-        "Prof. Amit Pal, DTU Delhi",
-        "Prof. Sagar Maji, DTU Delhi",
-        "Dr. Jatinder Kumar, NIT Kurukshetra",
-        "Dr. Shweta Rathi, NIT Kurukshetra",
-        "Dr. J. P. Mishra, IIT BHU",
-        "Dr. Ravi Panwar, IIT BHU",
-        "Dr. Ranvir S. Panwar, NIMS, Chandigarh",
-        "Dr. Satish Sharma, MNIT JAIPUR",
-        "Dr. RK Saket, Professor, IIT (BHU)",
-        "Dr. Sanjeevikumar Padmanaban, Professor, South-Eastern University, Norway",
-        "Dr. Ashwini Kumar Sharma , Professor I Design Thinking Practitioner I Leadership & Management CMI-5 Graphic Era Deemed to be University · Full-time",
-        "Prof. (Dr.) Abhay Bansal Dean, Bennett University, The Times Group, BE(CS), ME(IT), MBA, Ph.D, FIET(UK), FIE, FIETE, SMIEEE,CEng having 30 Yrs+ experience, AWS certified, Higher Education Leader and Administrator, Software Consultant, Influencer",
-        "Varinder Mittal, P.Eng., Ph.D., PMP Senior Project Manager | Mechanical/Manufacturing Engineer | Educationist | Researcher |  Prince Albert, Saskatchewan, Canada",
-        "Xiao-Zhi Gao Professor at University of Eastern Finland University of Eastern Finland Finland",
-        "Dr. Sunil Luthra Director, Training and Learning Bureau, All India Council of Technical Education (Ministry of Education) All India Council for Technical Education (AICTE) New Delhi, Delhi, India"
-    ];
+  "Prof. Avadhesh Kumar, PVC GU",
+  "Prof. Vijay Kumar, University of Missouri",
+  "Prof. Manish Jambwal, Director, NATRAX Indore",
+  "Prof. Shailesh Mishra, AVP, YASH technologies",
+  "Prof. Ashok Bhansali, Dean GLA University",
+  "Prof. Subhakalshmi Kher, IGWA State University",
+  "Prof. Rajeev Tripathi, VC RGPV",
+  "Prof. S.L. Maskara, Retd. Prof. IIT Kharagpur",
+  "Prof. O.P Vyas, IIIT Allahabad",
+  "Prof. Subrat Sarangi, IIT Kharagpur",
+  "Prof. B.K. Saini, Vice Chairman SOA University",
+  "Prof. Akhilesh Pandey, VC Vikram University",
+  "Prof. C.D. Patil, Professor, UEC Ujjain",
+  "Prof. Aditya Trivedi, IIITM Gwalior",
+  "Prof. P. Tapaswi, IIITM Gwalior",
+  "Prof. Anupam Shukla, IIITM Gwalior",
+  "Prof. R.C. Joshi, IIT Roorkee",
+  "Prof. Lovi Raj Gupta, Pro Vice Chancellor, LPU",
+  "Prof. Nitin Upadhye, University of Modern Sciences",
+  "Prof. Andrey Kuzmin, Man. Editor, BH Publishers",
+  "Prof. R K Pandit, Vice Chancellor, MITS Gwalior",
+  "Prof. Vivek Shrivastava, NIT Uttarakhand",
+  "Prof. Kalyan Bandopadhyaya, IIT Kharagpur",
+  "Prof. Santi Prasad Maity, Professor, IIEST",
+  "Prof. Akhesa Tiwary, MIT Gwalior",
+  "Prof. Sanjeev Tarlekar, IET DAVV",
+  "Prof. Abhay Dubey, Professor, DAVV",
+  "Prof. N.S. Choudhary, IIT Indore",
+  "Prof. P. Abdullah, CUSAT Kerala",
+  "Prof. Abdul Wahid, MACU Hyderabad",
+  "Prof. D. Kannan, CUSAT Kerala",
+  "Prof. Vargheese Paul, CUSAT Kerala",
+  "Prof. Bhammejit Singh, Professor NIT Kurukshetra",
+  "Prof. Ashok Depbexkta, SMIEEE",
+  "Prof. Sukumar Mishra, IIT Delhi",
+  "Prof. Sanjeevkumar Padmanaban, SEU Norway",
+  "Prof. Biplab Sikdar, NUS Singapore",
+  "Prof. Mohammad Khalid, Sunway University",
+  "Prof. Dr. Ilhami Colak, Gazi University Ankara",
+  "Prof. Firoz Alam, RMIT University Australia",
+  "Prof. Anant Dubey, Curtin University Australia",
+  "Prof. Ginbar Ensermu Geleta, Wollega University",
+  "Prof. M. L. Kolhe, University of Agder, Norway",
+  "Prof. Anand Parey, IIT Indore",
+  "Prof. Deepa Mitra, Qatar University",
+  "Prof. Asheesh Singh, MNNIT Allahabad",
+  "Prof. S. K. Singh, IIIT Allahabad",
+  "Prof. Anil Gupta, Secretary KSI Indore",
+  "Prof. Amrit Kumar Roy, NIT Hamirpur",
+  "Prof. Mayur Shirish Jain, IIT Indore",
+  "Prof. R N Singh, DAVV Indore",
+  "Prof. Amit Pal, DTU Delhi",
+  "Prof. Sagar Raji, DTU Delhi",
+  "Prof. Jatinder Kumar, NIT Kurukshetra",
+  "Prof. Shweta Rathi, NIT Kurukshetra",
+  "Prof. RK Saksat, Professor IIT BHU",
+  "Prof. (Dr.) Arun Prasad, Professor, IIT (BHU)",
+  "Prof. (Dr.) Ankit Gupta, Associate Professor, IIT (BHU)",
+  "Prof. (Dr.) K.K. Panahi, Professor, IIT (BHU)",
+  "Prof. (Dr.) Sandeep Choudhary, Professor, IIT Indore",
+  "Prof. (Dr.) Neelima Satyam, Professor, IIT Indore",
+  "Prof. (Dr.) Ravi Sharma, Professor, NIT Hamirpur",
+  "Prof. (Dr.) R.B. Data, Professor, NIT Hamirpur",
+  "Dr. Anurag Surana, Sr. GM Manager, PATH Mitra Indore",
+  "Er. Rahul Goel, Zonal head & Vice president, Ultratech Cement Ltd"
+];
 
-    const advisoryCommittee = [
-        "Assoc. Prof. Ts. Dr Lim Li Li",
-        "Prof. Ts. Dr Yip Mum Wai",
-        "Assoc. Prof. Ir. Lim Joo Eng"
-    ]
 
-    const technicalReviewerTeam = [
-        "Ir. Ts. Dr Sara Lee Kit Yee (ME)",
-        "Dr Ho Shuh Huey (ME)",
-        "Dr Intan Fatihah Binti Ahmad (ME)",
-        "Ts. Dr Lee Yoon Ket (robotic)",
-        "Assoc. Prof. Ir. Dr Chuah Yea Dat (robotic)",
-        "Dr Yeo Kwok Shien (EE)",
-        "Assoc. Prof. Ir. Dr Goh Kam Meng (EE)",
-        "Ir. Ts. Dr Hong Kai Sze (EE)",
-        "Ir. Ts. Dr Tan Xiao Jian (EE)",
-        "Ts. Gunalaan A/L Vasudevan (CE)",
-        "Dr Shantha Kumari A/P Muniyandi (CE)",
-        "Ts. Dr Tan Tee How (CE)"
-    ]
-
-    const honyGeneralChair = [
-        "Prof. D.K. Panda, Pro-Vice-Chancellor"
-    ]
 
     const generalChair = [
-        "Prof. Pramod S. Nair, Dean Engineering"
+        "Dr. Ratnesh Litoriya, Dean of Engineering(Computing)"
     ]
 
-    const conferenceCoChairs = [
-        "Prof. Rajendra K Shukla",
-        "Prof. Ts. Dr. Lim Li Li"
+    const conferenceCoChairs =  [
+      "Dr. Kailash Chandra Bandhu, Head of Department, CSE",
+      "Dr. Prashant Panse , Associate Dean Digitalization"
     ]
 
     const technicalProgramCommitteeChairs = [
-        "Prof. Prashant Panse",
         "Prof. Sanket Gupta",
-        "Dr. Kailash Chandra Bandhu",
-        "Dr. Sonu Kumar, Vice Chair, Membership Development, IEEE MP Section"
-        
     ]
 
-    const financeChair = [
-        "Prof. Sanjay Mohite"
-    ]
-    
+
     const publicationChairs = [
-        "Dr. Vipin Sharma",
+        "Dr. Sonu Kumar",
         
     ]
     
-    const publicityChairs = [
-        "Dr. Chayan Gupta",
-        "Dr. D. Arun Kumar",
-        "Dr. D. Arun Kumar"
-    ]
 
+    const workingComittee = [
+    "Dr. Manoj Kumar Rawat",
+    "Dr. Safdar Sardar Khan",
+    "Dr. Ritu Maheshwari",
+    "Dr. Rohit Gupta",
+    "Dr. Sunil Kushwaha",
+    "Dr. Hareram Jha",
+    "Prof. Ashish Kumar Kumawat",
+    "Prof. Dharmendra Mangal",
+    "Prof. Ajeet Singh Rajput",
+    "Prof. Hemant K. Pathak",
+    "Prof. Kriti Joshi",
+    "Prof. Swati Vaidya",
+    "Prof. Sourabh Dave",
+    "Prof. Manish Korde",
+    "Prof. Shubhrata Kanungo",
+    "Prof. Sachin Yele",
+    "Prof. Shivani Patnaha",
+    "Prof. Vishal Sharma",
+    "Prof. Priyanka Dhasal",
+    "Dr. Aditya Mandloi",
+    "Dr. Jyoti Kukade",
+    "Prof. Ankita Chourasia",
+    "Prof. Bhavana Kumari",
+    "Prof. Dharmendra Gupta",
+    "Prof. Mandakini Ingle",
+    "Prof. Nishant Shrivastava",
+    "Prof. Jyotsana Goyal",
+    "Prof. Mohammad Mazhar",
+    "Prof. Yatish Jain",
+    "Dr. Devendra Singh Bais"
+  ];
 
+const financeChair = ["Prof. Rudresh Shah"];
 
-
-    
-
-    const coconvener = [ "Prof. Kailash Chandra Bandhu"];
-    const cosecretary = [ "Prof. Latika Jindal"];
+ const publicityChair = ["Dr. Latika Jindal"];
     const doMyTask = (word) => {
         let arr = word.split(",", 3);
         return arr;
@@ -470,13 +290,13 @@ const ProgrameComitte = () => {
 
                                 ))}
                                 
-                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Program Chair</p>
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Program Chair</p>
                                 {programChair.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#293985]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))} */}
+                                ))}
                                 
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Conference Secretary</p>
                                 {conferenceSectery.map((element) => (
@@ -486,23 +306,29 @@ const ProgrameComitte = () => {
 
                                 ))} */}
 
-
-
-                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Publicity Chairs</p>
-                                {publicityChairs.map((element) => (
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Publication Chairs</p>
+                                {publicationChairs.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#293985]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))} */}
+                                ))}
 
-                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Publication Committee</p>
-                                {publicationCommitte.map((element) => (
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Finance Chair</p>
+                                {financeChair.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#293985]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))} */}
+                                ))}
+
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Publicity Chair</p>
+                                {publicityChair.map((element) => (
+                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
+                                        <span className='text-[#293985]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
+                                    </p>
+
+                                ))}
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Sponsorship Committee</p>
                                 {sponsorshipCommittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
@@ -576,7 +402,7 @@ const ProgrameComitte = () => {
 
                                 ))} */}
 
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Technical Program Committee</p>
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Technical Program Committee Chair</p>
                                 {technicalProgramCommitteeChairs.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#293985]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
@@ -633,13 +459,7 @@ const ProgrameComitte = () => {
 
                                 ))} */}
 
-                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Publication Chairs</p>
-                                {publicationChairs.map((element) => (
-                                    <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
-                                        <span className='text-[#293985]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
-                                    </p>
 
-                                ))}
 
 
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Media & Publicity</p>
@@ -656,13 +476,13 @@ const ProgrameComitte = () => {
                                     </p>
 
                                 ))}     */}
-                                {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Networking Committee</p>
-                                {networkingCommittee.map((element) => (
+                                <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Working Committee</p>
+                                {workingComittee.map((element) => (
                                     <p className="leading-relaxed sm:text-xl text-sm mt-2 font-bold text-black" key={element}>
                                         <span className='text-[#293985]'>{doMyTask(element)[0]}</span> {doMyTask(element)[1]} {doMyTask(element)[2]}
                                     </p>
 
-                                ))} */}
+                                ))}
 
                                 {/* <p className="leading-relaxed sm:text-[1.40rem] text-sm mt-4 font-bold text-[#a21d2e]">Volunteers Committee</p>
                                 {volunteersCommittee.map((element) => (

@@ -1,11 +1,6 @@
 import React from 'react'
-import StartHero from '../../components/StartHero/StartHero'
 import Footer from '../../components/Footer/Footer'
 import './venue.css'
-import girlHostel1 from '../../img/girlHostel1.JPG'
-import girlHostel2 from '../../img/girlHostel2.JPG'
-import girlHostel3 from '../../img/girlHostel3.JPG'
-import girlHostel4 from '../../img/girlHostel4.JPG'
 import Nav from '../../components/Navbar/Nav'
 const Venue = () => {
     return (

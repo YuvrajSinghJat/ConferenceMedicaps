@@ -1,5 +1,4 @@
 import React from 'react'
-import StartHero from '../../components/StartHero/StartHero'
 import Footer from '../../components/Footer/Footer'
 import Nav from '../../components/Navbar/Nav'
 import downloadIEEEFormat from "../../img/conferencepapertemplate.docx"

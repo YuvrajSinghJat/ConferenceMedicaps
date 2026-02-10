@@ -1,10 +1,10 @@
 
-import { useState, React, useEffect } from 'react'
+import { useState, React } from 'react'
 import Nav from '../../components/Navbar/Nav'
 import LoadingBar from 'react-top-loading-bar'
 import './StartHero.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import countapi from "countapi-js";
+
 
 import home_carousel1 from '../../img/newImage1.jpg'
 import home_carousel2 from '../../img/newImage2.jpg'
@@ -15,52 +15,36 @@ import home_carousel9 from '../../img/newImage6.jpg'
 import home_carousel6 from '../../img/medicaps.jpg'
 import home_carousel7 from '../../img/medicaps_cse1.jpg'
 import home_carousel8 from '../../img/mdicaps_university1.jpg'
-//d
+import downloadSchedule from '../../img/IC_EETA_Schedule_for_Participants_01_11.pdf'
 import { Link } from 'react-router-dom';
 const StartHero = (props) => {
-    const [progress, setProgress] = useState(100);
-    const [viewCount, setViewCount] = useState(0);
-
-    // useEffect(() => {
-    //     countapi.visits().then((result) => {
-    //         console.log(result.value);
-    //     });
-    // }, []);
     return (
         <div className="bgImg">
-            <LoadingBar
-                color='#f11946'
-                progress={progress}
-                onLoaderFinished={() => setProgress(0)}
-                loaderSpeed={1000}
-            />
-           {/* <div id="sfc5zh2zf9dc5hxu165btr7fayzur3nd1pm"></div><script type="text/javascript" src="https://counter6.optistats.ovh/private/counter.js?c=5zh2zf9dc5hxu165btr7fayzur3nd1pm&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free hit counter"><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=5zh2zf9dc5hxu165btr7fayzur3nd1pm" border="0" title="free hit counter" alt="free hit counter" /></a></noscript>
-                // <a href="https://www.freecounterstat.com" title="free hit counter"><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=5zh2zf9dc5hxu165btr7fayzur3nd1pm" border="0" title="free hit counter" alt="free hit counter" /></a> */}
-
+          
             <article className='container mx-auto'>
                 <div className="wrapper " >
                     <ul className="marquee">
-                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span>May 30,2025</span></li>
+                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span>May 30, 2026</span></li>
 
-                        <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> June 30,2025</span></li>
+                        <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> June 30, 2026</span></li>
 
-                        <li>Camera Ready Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span> July 31,2025</span></li>
-                        <li>Early Bird Registration - <span className='liName'>July 15, 2025</span></li>
-                        <li>Conference Date - <span className='liName'>November 6-8, 2025</span></li>
+                        <li>Camera Ready Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span> July 30, 2026</span></li>
+                        {/* <li>Early Bird Registration - <span className='liName'>July 15, 2025</span></li> */}
+                        <li>Conference Date - <span className='liName'>-November 19-21, 2026</span></li>
                     </ul>
                     <ul className="marquee2">
-                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span>May 30,2025</span></li>
+                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span>May 30, 2026</span></li>
 
-                        <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> June 30,2025</span></li>
+                        <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> June 30, 2026</span></li>
 
-                        <li>Camera Ready Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span> July 31,2025</span></li>
-                        <li>Early Bird Registration - <span className='liName'>July 15, 2025</span></li>
-                        <li>Conference Date - <span className='liName'>November 6-8, 2025</span></li>
+                        <li>Camera Ready Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span> July 30, 2026</span></li>
+                        {/* <li>Early Bird Registration - <span className='liName'>July 15, 2025</span></li> */}
+                        <li>Conference Date - <span className='liName'>November 19-21, 2026</span></li>
                     </ul>
                 </div>
             </article>
             <div id="carouselExampleCaptions" className="container mx-auto carousel slide relative" data-bs-ride="carousel">
-
+                                      
                 <div className="carousel-inner relative w-full overflow-hidden">
                     <div className="carousel-item active relative float-left w-full">
                         <img
@@ -69,73 +53,70 @@ const StartHero = (props) => {
                             alt="..."
 
                         />
-                        <div className="carousel-caption hidden md:block absolute top-0">
-                        <div class="elfsight-app-4b214d3a-61a9-408d-aaaa-876db82c8b51" color='text-white'></div>
-                        </div>
                         <div className="carousel-caption hidden md:block absolute text-center">
-
-                            <h5 className="text-2xl">Initiated By Medi-Caps University </h5>
+                                            
+                            <h5 className="text-2xl">Initiated By Medicaps University </h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        <img
+                        {/* <img
                             src={home_carousel2}
                             className="block w-full carouselImage"
                             alt="..." style={{
                                 objectPosition: "top"
                             }}
-                        />
+                        /> */}
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        <img
+                        {/* <img
                             src={home_carousel3}
                             className="block w-full carouselImage"
                             alt="..." style={{
                                 objectPosition: "top"
                             }}
-                        />
+                        /> */}
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        <img
+                        {/* <img
                             src={home_carousel4}
                             className="block w-full carouselImage" style={{
                                 objectPosition: "top"
                             }}
                             alt="..."
-                        />
+                        /> */}
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        <img
+                        {/* <img
                             src={home_carousel9}
                             className="block w-full carouselImage" style={{
                                 objectPosition: "top"
                             }}
                             alt="..."
-                        />
+                        /> */}
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
                         </div>
                     </div>
                     <div className="carousel-item relative float-left w-full">
-                        <img
+                        {/* <img
                             src={home_carousel5}
                             className="block w-full carouselImage" carouselimage="true"
                             alt="..."
-                        />
+                        /> */}
                         <div className="carousel-caption hidden md:block absolute text-center">
                             <h5 className="text-xl"></h5>
                             <p></p>
@@ -161,7 +142,7 @@ const StartHero = (props) => {
                 >
 
                     <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
+                    {/* <span className="visually-hidden">Previous</span> */}
                 </button>
                 <button
                     className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
@@ -170,7 +151,7 @@ const StartHero = (props) => {
                     data-bs-slide="next"
                 >
                     <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
+                    {/* <span className="visually-hidden">Next</span> */}
                 </button>
             </div>
 

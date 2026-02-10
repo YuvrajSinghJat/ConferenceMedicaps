@@ -1,9 +1,6 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Nav from '../../components/Navbar/Nav'
-import StartHero from '../../components/StartHero/StartHero'
-import downloadTemplate from '../../img/conference-template-a4.docx'
-import IEEEcopyrightform from '../../img/IEEEcopyrightform.pdf'
 
 import './PaperSubmission.css'
 const PaperSubmission = () => {

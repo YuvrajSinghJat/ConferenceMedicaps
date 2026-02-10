@@ -14,39 +14,22 @@ import TECLogo from '../../img/TECLogo.png'
 import SMULogo from '../../img/SMU.png'
 import INTILogo from '../../img/INTIUniversity.png'
 import DPULOGO from '../../img/DPU_logo.png'
-import sponsor2 from '../../img/spomsor2.png'
 import scopeImage from '../../img/scope2.jpg'
-import conferenceAlertLogo from '../../img/conferenceAlertLogo.jpeg'
-import npcst from '../../img/npcst.png'
-import CSIlogo from '../../img/CSIlogo.png'
-import ieeeLogo from '../../img/springer.png'
 import pastConference_1 from '../../img/CONFERENCEICANI.jpeg'
 import pastConference_2 from '../../img/pastConference_2.JPG'
 import pastConference_3 from '../../img/pastConference_3.JPG'
 import pastConference_4 from '../../img/pastConference_4.JPG'
 import { useCount } from '../../Context/context.js'
-import keyNoteSpeakers1 from '../../img/keyNoteSpeakers1.jpg'
-import keyNoteSpeakers2 from '../../img/keyNoteSpeakers2.jpg'
-import keyNoteSpeakers3 from '../../img/keyNoteSpeakers3.png'
-import keyNoteSpeakers4 from '../../img/keyNoteSpeakers4.jpg'
-import keyNoteSpeakers5 from '../../img/keyNoteSpeakers5.png'
-import keyNoteSpeakers6 from '../../img/keyNoteSpeakers6.png'
-import keyNoteSpeakers7 from '../../img/keyNoteSpeakers7.jpeg'
-import chiefGuest from '../../img/chiefGuest.jpg'
-import speaker1 from '../../img/speaker1.jpg'
-import speaker2 from '../../img/speaker2.jpg'
-import speaker3 from '../../img/speaker3.jpg'
-import speaker4 from '../../img/speaker4.jpg'
-import keyNoteSpeakers8 from "../../img/keyNoteSpeakers8.jpg"
 import keyNoteSpeakers9 from "../../img/keyNoteSpeakers9.jpg"
-import keyNoteSpeakers10 from "../../img/keyNoteSpeakers10.jpg"
 import INTERNATIONAL_CONFERENCE_ALERTS from "../../img/INTERNATIONAL-CONFERENCE-ALERTS.png"
-
+import All_Conference_Alert from "../../img/All-conference-alert.png"
+import chritopher from "../../img/Speaker100.png"
+import chritopher2 from "../../img/Speaker101.png"
+import tarmutLogo from '../../img/tarumt-logo.png'
 const HomePage = () => {
     const [progress, setProgress] = useState(100);
     const first = useRef(0);
     const { count, setCount } = useCount();
-    console.log(useCount());
     useEffect(() => {
         // window.onload = (event) => {
         //     console.log("page is fully loaded");
@@ -69,12 +52,13 @@ const HomePage = () => {
 
 
             <Nav />
+
             <StartHero />
-            
+
 
             <section className="text-gray-600 body-font mt-4">
 
-            <h1 className="text-2xl text-black mt-2 text-center bodyFont gradientHeading">IEEE Application Number : 66496</h1>
+            <h1 className="text-2xl text-black mt-2 text-center bodyFont gradientHeading">IEEE Application Number : </h1>
             <br></br>
             {/*Sixth Section*/}
             <section className="text-gray-600 body-font" id="impDates" >
@@ -90,7 +74,7 @@ const HomePage = () => {
                                 <p className="title-font text-white mt-2 text-center">Full Paper Submission</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
                                     <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del></div>
-                                    <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
+                                    <div><div className='text-[#ff0000]'></div></div>June 30, 2026</h2>
 
 
                             </div>
@@ -101,7 +85,7 @@ const HomePage = () => {
                                 <p className="title-font text-white mt-2 text-center">Acceptance Notification</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                     {/* <span className='text-sm block'> (For the paper recieved before 05 Dec)</span> */}
-                                </div> June 30,2025</h2>
+                                </div> June 30, 2026</h2>
 
 
                             </div>
@@ -110,27 +94,27 @@ const HomePage = () => {
                                     <i className="fa-solid fa-cloud-arrow-up  fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div> July 31,2025</h2>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div> July 30, 2026</h2>
 
                             </div>
                         </Slide>
 
                         <Slide right>
 
-                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
+                            {/* <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
                                 <div className="rounded-lg h-auto overflow-hidden iconclr ">
                                     <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Early Bird Registration</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont">July 15, 2025</h2>
 
-                            </div>
+                            </div> */}
                             <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
                                 <div className="rounded-lg h-auto overflow-hidden iconclr">
                                     <i className="fa-solid fa-chalkboard-user  fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Conference Date</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">November 6-8, 2025</h2>-
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">November 19-21, 2026</h2>-
 
                             </div>
                         </Slide>
@@ -144,8 +128,8 @@ const HomePage = () => {
                                         <i className="fa-solid fa-hourglass-end fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
-                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
-                                        <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
+                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white">May 30,2025</span></del>
+                                        <div><div className='text-[#ff0000]'></div></div>June 30, 2026</h2>
 
                                 </div>
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -155,7 +139,7 @@ const HomePage = () => {
                                     <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                         {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
-                                    </div>June 30,2025</h2>
+                                    </div>June 30, 2026</h2>
 
 
                                 </div>
@@ -166,26 +150,26 @@ const HomePage = () => {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[     
-                                  #ff0000]'></div>  July 31,2025</h2>
+                                  #ff0000]'></div>  July 30, 2026</h2>
 
                                 </div>
 
 
-                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                {/* <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                                     <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
                                         <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Early Bird Registration</p>
                                     <h2 className="text-sm text-white mt-2 text-center bodyFont">July 15, 2025</h2>
 
-                                </div>
+                                </div> */}
 
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                                     <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
                                         <i className="fa-solid fa-chalkboard-user fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Conference Date</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">November 6-8, 2025</h2>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">November 19-21, 2026</h2>
 
                                 </div>
                             </Slide>
@@ -203,7 +187,7 @@ const HomePage = () => {
                 <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center bg-[#E3F0FB] pl-8">
                     <Fade left>
                         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                            <h1 className="sm:text-4xl text-3xl mb-8 font-black text-black bodyFont2">Conference Scope
+                            <h1 className="sm:text-4xl text-3xl mb-8 font-black text-black bodyFont2 gradientHeading">Conference Scope
                             </h1>
                             <p className="mb-8 leading-relaxed text-black sm:text-xl text-sm font-semibold text-justify">The objective of this international conference is to foster a dynamic exchange of knowledge and innovation across the domains of mechanical, civil, electrical and computer engineering. By bringing together leading scholars, industry experts, and visionary practitioners, the conference aims to strengthen academic-industry collaboration and provide a forum for the dissemination of pioneering research, advanced technologies, and future- oriented solutions. Emphasizing interdisciplinary synergy, the event is aimed at addressing pressing global challenges while promoting sustainable, cutting-edge practices. Ultimately, it aspires to contribute to the technological growth and sustainable development of our nation, positioning it at the forefront of global innovation. The conference will feature keynote addresses from eminent personalities in various fields aligned with the theme, including distinguished Indian and international speakers.<span className='text-[#00629B] font-bold'></span><span className='text-[#00629B] font-bold'></span></p>
                             <div className="flex justify-center">
@@ -321,11 +305,11 @@ const HomePage = () => {
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-10">
                         <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">MEDIA COLLABORATIONS</h1>
-                        {/* <h2>Yet to declare</h2> */}
+                        <h2>Yet to declare</h2>
                     </div>
 
                     <div className="flex flex-wrap -m-4 justify-center">
-                        <Zoom>
+                        {/* <Zoom>
                         
                             <div className="p-4 lg:w-1/4 md:w-1/2">
                             <a href="https://internationalconferencealerts.com/" target="_blank">
@@ -335,7 +319,19 @@ const HomePage = () => {
                                 </a>
                             </div>
                          
-                        </Zoom>
+                        </Zoom> */}
+
+                        {/* <Zoom>
+                        
+                            <div className="p-4 lg:w-1/4 md:w-1/2">
+                            <a href="https://allconferencealert.net/" target="_blank">
+                                <div className="h-full flex flex-col items-center text-center justify-center ">
+                                    <img alt="All Conference Alerts" className="flex-shrink-0 rounded-lg w-56 h-auto  mb-4" src={All_Conference_Alert} />
+                                </div>
+                                </a>
+                            </div>
+                         
+                        </Zoom> */}
                        
                         {/* <Zoom>
                             <div className="p-4 lg:w-1/4 md:w-1/2">
@@ -364,11 +360,11 @@ const HomePage = () => {
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-10">
                         <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">COLLABORATIONS</h1>
-                        {/* <h2>Yet to declare</h2> */}
+                        <h2>Yet to declare</h2>
                     </div>
 
                     <div className="flex flex-wrap -m-4 justify-center">
-                        <Zoom>
+                        {/* <Zoom>
                         
                             <div className="p-4 lg:w-1/4 md:w-1/2">
                             <a href="https://miifoundation.com/" target="_blank">
@@ -378,8 +374,8 @@ const HomePage = () => {
                                 </a>
                             </div>
                          
-                        </Zoom>
-                        <Zoom>
+                        </Zoom> */}
+                        {/* <Zoom>
                             <div className="p-4 lg:w-1/4 md:w-1/2">
                             <a href="https://tec.medicaps.ac.in/" target="_blank">
                                 <div className="h-full flex flex-col items-center text-center">
@@ -387,7 +383,7 @@ const HomePage = () => {
                                 </div>
                             </a>
                             </div>
-                        </Zoom>
+                        </Zoom> */}
                        
                         {/* <Zoom>
                             <div className="p-4 lg:w-1/4 md:w-1/2">
@@ -415,12 +411,19 @@ const HomePage = () => {
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-10">
                         <h1 className="sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">COLLABORATING UNIVERSITIES</h1>
-                    {/* <h2>Yet to declare</h2> */}
+                    <h2>Yet to declare</h2>
 
                     </div>
                     <div className="flex flex-wrap -m-4 justify-center">
 
-                        <Zoom>
+                        {/* <Zoom>
+                            <div className="p-4 lg:w-1/3 md:w-1/2">
+                                <a href="https://tarc.edu.my/" target="_blank">
+                                    <div className="h-full flex flex-col items-center text-center justify-center">
+                                        <img alt="team" className="flex-shrink-0 rounded-lg w-72 h-32 object-center" src={tarmutLogo} />
+                                    </div>
+                                </a>
+                            </div>
                             <div className="p-4 lg:w-1/3 md:w-1/2">
                                 <a href="https://www.smu.edu/" target="_blank">
                                     <div className="h-full flex flex-col items-center text-center justify-center">
@@ -442,7 +445,7 @@ const HomePage = () => {
                                     </div>
                                 </a>
                             </div>
-                        </Zoom>
+                        </Zoom> */}
                     </div>
                     <div className="text-center">
                         <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-12 mb-6"></span>
@@ -492,12 +495,52 @@ const HomePage = () => {
                 <div className="container px-5 py-12 mx-auto bg-[#E3F0FB]">
                     <div className="flex flex-col text-center w-full mb-12">
                         <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">KEY NOTE SPEAKERS</h1>
-                        {/* <h2><b>Yet to Declare</b></h2> */}
+                        <h2>Yet to Declare</h2>
                     </div>
-                    <div className="flex flex-wrap -m-4 w-full mx-auto">
-                       
+                    <Zoom>
+                    <div className="flex flex-wrap -m-4 w-full mx-auto justify-center">
+
+                        {/* SIXTH  */}
+                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
+                            <div className="h-full flex flex-col items-center text-center">
+                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers9} />
+                                <div className="w-full">
+                                    <h2 className="title-font font-medium text-lg text-black">Prof. Ts. Dr Yip Mum Wai</h2>
+                                    <div><p>Chair of Centre for Systematic Innovation Research 
+
+                                    </p></div>
+                                </div>
+                            </div>
+                        </div> */}
+                        
+                        {/* EIGHTH */}
+                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
+                            <div className="h-full flex flex-col items-center text-center">
+                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={chritopher2} />
+                                <div className="w-full">
+                                    <h2 className="title-font font-medium text-lg text-black">Ir. Ricky Liew Chee Leong</h2>
+                                    <div><p>Professor of Construction Management
+                                    </p></div>
+                                </div>
+                            </div>
+                        </div> */}
+
+                        {/* FIFTH  */}
+                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
+                            <div className="h-full flex flex-col items-center text-center">
+                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={chritopher}/>
+                                <div className="w-full">
+                                    <h2 className="title-font font-medium text-lg text-black">Prof Dr Christopher Nigel Preece</h2>
+                                    <div><p>Head of Engineering
+                                    </p></div>
+                                </div>
+                            </div>
+                        </div> */}
+                        
+
+
                         {/* FIRST */}
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
                                 <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={speaker1} />
                                 <div className="w-full">
@@ -507,9 +550,9 @@ const HomePage = () => {
                                     </p></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* SECOND  */}
-
+{/* 
                         <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
                                 <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={speaker2} />
@@ -519,10 +562,10 @@ const HomePage = () => {
                                     </p></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* THIRD  */}
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
                                 <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={speaker3} />
                                 <div className="w-full">
@@ -531,10 +574,10 @@ const HomePage = () => {
                                     </p></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* FOURTH  */}
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
                                 <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={speaker4} />
                                 <div className="w-full">
@@ -546,36 +589,13 @@ const HomePage = () => {
                                     </p></div>
                                 </div>
                             </div>
-                        </div>
-                        {/* FIFTH  */}
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
-                            <div className="h-full flex flex-col items-center text-center">
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers8} />
-                                <div className="w-full">
-                                    <h2 className="title-font font-medium text-lg text-black">Prof. Ts. Dr Lai Weng Kin</h2>
-                                    <div><p>Chair of Centre for Multimodal Signal Processing 
-                                    </p></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        {/* SIXTH  */}
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
-                            <div className="h-full flex flex-col items-center text-center">
-                                <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers9} />
-                                <div className="w-full">
-                                    <h2 className="title-font font-medium text-lg text-black">Prof. Ts. Dr Yip Mum Wai</h2>
-                                    <div><p>Chair of Centre for Systematic Innovation Research 
+                        </div> */}
 
-                                    </p></div>
-                                </div>
-                            </div>
-                        </div>
-                        
+
 
 
                         {/* SEVENTH */}
-                        <div className="p-4 lg:w-1/4 md:w-1/2">
+                        {/* <div className="p-4 lg:w-1/4 md:w-1/2">
                             <div className="h-full flex flex-col items-center text-center">
                                 <img alt="team" className="flex-shrink-0 rounded-lg w-full h-72 object-cover object-center mb-4" src={keyNoteSpeakers10} />
                                 <div className="w-full">
@@ -584,7 +604,7 @@ const HomePage = () => {
                                     </p></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <div className="p-4 lg:w-1/4 md:w-1/2">
                                                 <div className="h-full flex flex-col items-center text-center">
                                                     <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200/cccccc/000000.png&text=++UPDATED+SOON" />
@@ -602,6 +622,7 @@ const HomePage = () => {
                                                 </div>
                                             </div> */}
                     </div>
+                    </Zoom>
                     <div className="text-center">
 
                         <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6 mx-auto"></span>
@@ -646,6 +667,20 @@ const HomePage = () => {
                         </div>
 
                         <div class="grid grid-cols-2 gap-4 place-content-center">
+                                  <Slide bottom>
+
+                                <div class="xl:w-1/4 md:w-1/2 p-4">
+                                    <div class="bg-[#293985] rounded-lg mr-3">
+                                        {/* <a href="https://ieeexplore.ieee.org/xpl/conhome/7562831/proceeding"> */}
+                                            <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_3} alt="content" />
+                                            <div className="px-6 pb-1">
+                                                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">IEEE International Conference IC-EETA’25 - <span className='text-[#ff0000]'>2025</span></h2>
+
+                                            </div>
+                                        {/* </a> */}
+                                    </div>
+                                </div>
+                            </Slide>
                         <Slide bottom>
 
                             <div class="xl:w-1/4 md:w-1/2 ml-2">
@@ -677,17 +712,17 @@ const HomePage = () => {
 
                             <Slide bottom>
 
-<div class="xl:w-1/4 md:w-1/2 p-4">
-    <div class="bg-[#293985] rounded-lg mr-3">
-        <a href="https://link.springer.com/book/10.1007/978-981-13-2673-8">
-            <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_1} alt="content" />
-            <div className="px-6 pb-1">
+                                <div class="xl:w-1/4 md:w-1/2 p-4">
+                                    <div class="bg-[#293985] rounded-lg mr-3">
+                                        <a href="https://link.springer.com/book/10.1007/978-981-13-2673-8">
+                                            <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_1} alt="content" />
+                                            <div className="px-6 pb-1">
 
-                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">Springer Conference ICANI - <span className='text-[#ff0000]'>2018</span></h2>
-            </div>
-        </a>
-    </div>
-</div>
+                                                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">Springer Conference ICANI - <span className='text-[#ff0000]'>2018</span></h2>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </Slide>
                           
                             <Slide bottom>
@@ -738,8 +773,11 @@ const HomePage = () => {
 
                         <div className="text-center lg:w-2/3 w-full">
                             <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">PAPER SUBMISSION</h1>
-                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#293985]'>Submission System</span> by <span className='text-[#293985] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#293985]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#293985]"> </span></del><span className="text-[#ff0000]">May 30,2025</span>.</span> Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
+                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><span className="text-[#ff0000]">July 30, 2026</span></span> (Due to the overwhelming response and the request for extending the submission date). Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
                             <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
+                            {/* <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">PAPER SUBMISSION</h1>
+                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]">May 30,2025 </span></del><br></br><span className="text-[#ff0000]"> June 30, 2026</span></span> (Due to the overwhelming response and the request for extending the submission date). Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
+                            <span className="inline-block h-1 w-24 rounded bg-[#016698] mt-8 mb-6"></span> */}
 
 
                         </div>

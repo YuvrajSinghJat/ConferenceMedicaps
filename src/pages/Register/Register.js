@@ -3,15 +3,15 @@ import Nav from '../../components/Navbar/Nav'
 import Footer from '../../components/Footer/Footer'
 import './register.css';
 import Slide from 'react-reveal/Slide';
-import qrcode from '../../img/newQrCodeForBank.jpg'
+import qrcode from '../../img/paymentqr.jpg'
 function Register() {
     return (
         <>
             <Nav />
             <section className="text-gray-600 body-font" id="impDates" >
-                <div className="container px-5 py-12 mx-auto bg-[#016698]">
+                <div className="container px-5 py-12 mx-auto bg-[#016698] gradientColor">
 
-                    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp1">
+                    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp1 ">
 
                         <Slide left>
                             <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
@@ -21,7 +21,7 @@ function Register() {
                                 <p className="title-font text-white mt-2 text-center">Full Paper Submission</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
                                     <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del></div>
-                                    <div><div className='text-[#ff0000]'></div></div>May 30,2025</h2>
+                                   <div><div className='text-[#ff0000]'>June 30, 2026</div></div></h2>
 
 
                             </div>
@@ -32,7 +32,7 @@ function Register() {
                                 <p className="title-font text-white mt-2 text-center">Acceptance Notification</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                     {/* <span className='text-sm block'> (For the paper recieved before 05 Dec)</span> */}
-                                </div>June 30,2025</h2>
+                                </div>June 30, 2026</h2>
 
 
                             </div>
@@ -41,34 +41,34 @@ function Register() {
                                     <i className="fa-solid fa-cloud-arrow-up  fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div>July 31,2025</h2>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div>July 30, 2026</h2>
 
                             </div>
                         </Slide>
 
                         <Slide right>
 
-                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
+                            {/* <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
                                 <div className="rounded-lg h-auto overflow-hidden iconclr ">
                                     <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Early Bird Registration</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont">July 15, 2025</h2>
 
-                            </div>
+                            </div> */}
                             <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
                                 <div className="rounded-lg h-auto overflow-hidden iconclr">
                                     <i className="fa-solid fa-chalkboard-user  fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Conference Date</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">November 6-8, 2025</h2>-
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">November 19-21, 2026</h2>-
 
                             </div>
                         </Slide>
 
                     </div>
                     <section id="impDates">
-                        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp2">
+                        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center noneDisp2 gradientColor">
                             <Slide left>
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                                     <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
@@ -76,7 +76,7 @@ function Register() {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
-                                        <div><div className='text-[#ff0000]'>.</div></div>May 30,2025</h2>
+                                        <div><div className='text-[#ffffff]'></div></div>June 30, 2026</h2>
 
                                 </div>
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -84,9 +84,9 @@ function Register() {
                                         <i className="fa-solid fa-bell fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
-                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>June 30,2025
+                                    <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                         {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
-                                    </div> July 15, 2025</h2>
+                                    </div> June 30, 2026</h2>
 
 
                                 </div>
@@ -97,26 +97,26 @@ function Register() {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[
-                                            #ff0000]'></div>July 31,2025</h2>
+                                            #ff0000]'></div>July 30, 2026</h2>
 
                                 </div>
 
 
-                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                {/* <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                                     <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
                                         <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Early Bird Registration</p>
                                     <h2 className="text-sm text-white mt-2 text-center bodyFont">July 15, 2025</h2>
 
-                                </div>
+                                </div> */}
 
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                                     <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
                                         <i className="fa-solid fa-chalkboard-user fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Conference Date</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">November 6-8, 2025</h2>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">November 19-21, 2026</h2>
 
                                 </div>
                             </Slide>
@@ -132,10 +132,10 @@ function Register() {
 
                         <div className="flex items-center mb-3 mr-8 justify-center" >
 
-                            <h1 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Registration Charges
+                            <h1 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2 gradientHeading'>Registration Charges
                             </h1>
                             
-                            <i className="fa-solid fa-id-card sm:fa-3x fa-2x ml-12" style={{ color: "#016698" }}></i>
+                            {/* <i className="fa-solid fa-id-card sm:fa-3x fa-2x ml-12" style={{ color: "#293985" }}></i> */}
                             
                         </div>
                         <div className="container mt-12">
@@ -191,9 +191,9 @@ function Register() {
 
 
 
-                            <div className="flex items-center mb-3 mr-8 justify-center" >
+                            {/* <div className="flex items-center mb-3 mr-8 justify-center" >
                         <h2 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Registration Charges</h2>
-                        </div>
+                        </div> */}
                         <br></br>
 
                             <table className="registerTable sm:w-[90%] mx-auto border- border border-black">
@@ -258,7 +258,7 @@ function Register() {
                     <div className="w-full mx-auto text-left">
                         <div className="flex items-center mb-8 mr-8 mt-12 justify-center" >
 
-                            <h1 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2'>Account Details
+                            <h1 className='sm:text-4xl text-xl font-black text-black ml-12 bodyFont2 gradientHeading'>Account Details
                             </h1>
                         </div>
                         <div className="flex">
@@ -267,14 +267,14 @@ function Register() {
 
                                 <tbody>
                                     <tr>
-                                        <th className="highlight1 border border-black w-[30%]">Name of A/c</th>
-                                        <th className="highlight1 border border-black w-[35%]">MEDI-CAPS UNIVERSITY - CEP</th>
+                                        <th className="highlight1 border border-black w-[30%]">Payment through link<br/></th>
+                                        {/* <th className="highlight1 border border-black w-[35%]">MEDI-CAPS UNIVERSITY - CEP</th> */}
                                     </tr>
                                     <tr>
-                                        <th className="highlight1 border border-black w-[30%]">A/c No.</th>
-                                        <th className="highlight1 border border-black w-[35%]">0001104000600323</th>
+                                        <th className="highlight1 border border-black w-[30%]"><a href="https://portal.medicaps.ac.in/accsoft2/MiscellaneousPayment.aspx" className='text-[#0000FF] underline'>PAY HERE</a></th>
+                                        {/* <th className="highlight1 border border-black w-[35%]">0001104000600323</th> */}
                                     </tr>
-                                    <tr>
+                                    {/* <tr>
                                         <th className="highlight1 border border-black w-[30%]">IFSC Code</th>
                                         <th className="highlight1 border border-black w-[35%]">IBKL0000001</th>
                                     </tr>
@@ -285,7 +285,7 @@ function Register() {
                                     <tr>
                                         <th className="highlight1 border border-black w-[30%]">Branch</th>
                                         <th className="highlight1 border border-black w-[35%]">Indore</th>
-                                    </tr>
+                                    </tr> */}
                                 </tbody>
                             </table>
 
@@ -295,7 +295,7 @@ function Register() {
                         </div>
 
                     </div>
-                    <div><p className="leading-relaxed  mt-2 sm:text-xl font-semibold text-black text-sm text-justify ">**For paying through UPI, Scan the QR Code on the rigth side</p></div>
+                    <div><p className="leading-relaxed  mt-2 sm:text-xl font-semibold text-black text-sm text-justify ">**For paying through QR, Scan the QR Code on the right side</p></div>
                 </div>
 
 
