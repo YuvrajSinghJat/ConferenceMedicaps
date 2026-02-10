@@ -74,7 +74,7 @@ const HomePage = () => {
                                 <p className="title-font text-white mt-2 text-center">Full Paper Submission</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
                                     <div><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del></div>
-                                    <div><div className='text-[#ff0000]'></div></div>June 30, 2026</h2>
+                                    <div><div className='text-[#ff0000]'></div></div>June 15, 2026</h2>
 
 
                             </div>
@@ -85,7 +85,7 @@ const HomePage = () => {
                                 <p className="title-font text-white mt-2 text-center">Acceptance Notification</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                     {/* <span className='text-sm block'> (For the paper recieved before 05 Dec)</span> */}
-                                </div> June 30, 2026</h2>
+                                </div> July 15, 2026</h2>
 
 
                             </div>
@@ -101,20 +101,20 @@ const HomePage = () => {
 
                         <Slide right>
 
-                            {/* <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
+                            <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
                                 <div className="rounded-lg h-auto overflow-hidden iconclr ">
                                     <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                 </div>
-                                <p className="title-font text-white mt-2 text-center">Early Bird Registration</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">July 15, 2025</h2>
+                                <p className="title-font text-white mt-2 text-center">Registration Deadline</p>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">August 15, 2026</h2>
 
-                            </div> */}
+                            </div>
                             <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
                                 <div className="rounded-lg h-auto overflow-hidden iconclr">
                                     <i className="fa-solid fa-chalkboard-user  fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Conference Date</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">November 19-21, 2026</h2>-
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">December 10-12, 2026</h2>-
 
                             </div>
                         </Slide>
@@ -129,7 +129,7 @@ const HomePage = () => {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white">May 30,2025</span></del>
-                                        <div><div className='text-[#ff0000]'></div></div>June 30, 2026</h2>
+                                        <div><div className='text-[#ff0000]'></div></div>June 15, 2026</h2>
 
                                 </div>
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -139,7 +139,7 @@ const HomePage = () => {
                                     <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                         {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
-                                    </div>June 30, 2026</h2>
+                                    </div>July 15, 2026</h2>
 
 
                                 </div>
@@ -155,21 +155,21 @@ const HomePage = () => {
                                 </div>
 
 
-                                {/* <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
+                                <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                                     <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
                                         <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                     </div>
-                                    <p className="text-sm title-font text-white mt-2 text-center">Early Bird Registration</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">July 15, 2025</h2>
+                                    <p className="text-sm title-font text-white mt-2 text-center">Registration Deadline</p>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">August 15, 2026</h2>
 
-                                </div> */}
+                                </div>
 
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                                     <div className="rounded-lg sm:h-32 overflow-hidden iconclr ">
                                         <i className="fa-solid fa-chalkboard-user fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Conference Date</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">November 19-21, 2026</h2>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">December 10-12, 2026</h2>
 
                                 </div>
                             </Slide>
@@ -674,7 +674,7 @@ const HomePage = () => {
                                         {/* <a href="https://ieeexplore.ieee.org/xpl/conhome/7562831/proceeding"> */}
                                             <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_3} alt="content" />
                                             <div className="px-6 pb-1">
-                                                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">IEEE International Conference IC-EETA’25 - <span className='text-[#ff0000]'>2025</span></h2>
+                                                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">International Conference IC-EETA’25 - <span className='text-[#ff0000]'>2025</span></h2>
 
                                             </div>
                                         {/* </a> */}
@@ -689,7 +689,7 @@ const HomePage = () => {
                                         <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_4} alt="content" />
                                         <div className="px-6 pb-1">
 
-                                            <h2 class="text-lg text-white font-bold title-font mb-4 text-center">2nd IEEE Conference IC4 <span className='text-[#ff0000]'>2024</span></h2>
+                                            <h2 class="text-lg text-white font-bold title-font mb-4 text-center">2nd Conference IC4 - <span className='text-[#ff0000]'>2024</span></h2>
                                         </div>
                                     </a>
                                 </div>
@@ -732,7 +732,7 @@ const HomePage = () => {
                                         <a href="https://ieeexplore.ieee.org/xpl/conhome/7562831/proceeding">
                                             <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_3} alt="content" />
                                             <div className="px-6 pb-1">
-                                                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">IEEE CDAN Symposium - <span className='text-[#ff0000]'>2016</span></h2>
+                                                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">CDAN Symposium - <span className='text-[#ff0000]'>2016</span></h2>
 
                                             </div>
                                         </a>
@@ -748,7 +748,7 @@ const HomePage = () => {
                                             <img class="h-[14.1rem]  rounded w-full object-cover object-center mb-6" src={pastConference_4} alt="content" />
                                             <div className="px-6 pb-1">
 
-                                                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">1st IEEE Conference IC4 - <span className='text-[#ff0000]'>2015</span></h2>
+                                                <h2 class="text-lg text-white font-bold title-font mb-4 text-center">1st Conference IC4 - <span className='text-[#ff0000]'>2015</span></h2>
                                             </div>
                                         </a>
                                     </div>
@@ -773,7 +773,7 @@ const HomePage = () => {
 
                         <div className="text-center lg:w-2/3 w-full">
                             <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2 gradientHeading">PAPER SUBMISSION</h1>
-                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><span className="text-[#ff0000]">July 30, 2026</span></span> (Due to the overwhelming response and the request for extending the submission date). Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
+                            <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><span className="text-[#ff0000]">June 15, 2026</span></span> (Due to the overwhelming response and the request for extending the submission date). Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
                             <span className="inline-block h-1 w-24 rounded bg-[#a21d2e] mt-8 mb-6"></span>
                             {/* <h1 className="title-font sm:text-4xl text-3xl font-black mb-4 text-black bodyFont2">PAPER SUBMISSION</h1>
                             <p className="mb-4 leading-relaxed text-black font-semibold mt-12 text-sm sm:text-xl text-justify">Authors are invited to submit papers through the conference <span className='text-[#016698]'>Submission System</span> by <span className='text-[#016698] font-bold'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]"></span></del><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-[#016698]">May 30,2025 </span></del><br></br><span className="text-[#ff0000]"> June 30, 2026</span></span> (Due to the overwhelming response and the request for extending the submission date). Submissions must be original and should not have been published previously or be under consideration for publication while being evaluated for this conference.</p>
