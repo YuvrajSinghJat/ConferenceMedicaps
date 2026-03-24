@@ -32,7 +32,7 @@ function Register() {
                                 <p className="title-font text-white mt-2 text-center">Acceptance Notification</p>
                                 <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                     {/* <span className='text-sm block'> (For the paper recieved before 05 Dec)</span> */}
-                                </div>July 15, 2026</h2>
+                                </div>July 31, 2026</h2>
 
 
                             </div>
@@ -41,7 +41,7 @@ function Register() {
                                     <i className="fa-solid fa-cloud-arrow-up  fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div>July 30, 2026</h2>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'></div>September 10, 2026</h2>
 
                             </div>
                         </Slide>
@@ -53,7 +53,7 @@ function Register() {
                                     <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Registration Deadline</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">August 15, 2026</h2>
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">September 10, 2026</h2>
 
                             </div>
                             <div className="p-4 md:w-1/6 sm:mb-0 mb-6">
@@ -61,7 +61,7 @@ function Register() {
                                     <i className="fa-solid fa-chalkboard-user  fa-4x iconclr"></i>
                                 </div>
                                 <p className="title-font text-white mt-2 text-center">Conference Date</p>
-                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">December 10-12, 2026</h2>-
+                                <h2 className="text-2xl text-white mt-2 text-center bodyFont">January 07-09, 2026</h2>-
 
                             </div>
                         </Slide>
@@ -76,7 +76,7 @@ function Register() {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Full Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del>
-                                        <div><div className='text-[#ffffff]'></div></div>June 15, 2026</h2>
+                                        <div><div className='text-[#ffffff]'></div></div>June 30, 2026</h2>
 
                                 </div>
                                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
@@ -86,7 +86,7 @@ function Register() {
                                     <p className="text-sm title-font text-white mt-2 text-center">Acceptance Notification</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[#ff0000]'>
                                         {/* <span className='text-sm'> (For the paper recieved before 05 Dec)</span> */}
-                                    </div>July 15, 2026</h2>
+                                    </div>July 31, 2026</h2>
 
 
                                 </div>
@@ -97,7 +97,7 @@ function Register() {
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Camera Ready Paper Submission</p>
                                     <h2 className="text-sm  text-white mt-2 text-center bodyFont"><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-white"></span></del><div className='text-[
-                                            #ff0000]'></div>July 30, 2026</h2>
+                                            #ff0000]'></div>September 10, 2026</h2>
 
                                 </div>
 
@@ -107,7 +107,7 @@ function Register() {
                                         <i className="fa-solid fa-id-card fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Registration Deadline</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">August 15, 2026</h2>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">September 10, 2026</h2>
 
                                 </div>
 
@@ -116,7 +116,7 @@ function Register() {
                                         <i className="fa-solid fa-chalkboard-user fa-4x iconclr"></i>
                                     </div>
                                     <p className="text-sm title-font text-white mt-2 text-center">Conference Date</p>
-                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">December 10-12, 2026</h2>
+                                    <h2 className="text-sm text-white mt-2 text-center bodyFont">January 07-09, 2026</h2>
 
                                 </div>
                             </Slide>

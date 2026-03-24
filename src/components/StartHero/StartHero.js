@@ -24,22 +24,22 @@ const StartHero = (props) => {
             <article className='container mx-auto'>
                 <div className="wrapper " >
                     <ul className="marquee">
-                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span>June 15, 2026</span></li>
+                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span>June 30, 2026</span></li>
 
-                        <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> July 15, 2026</span></li>
+                        <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> July 31, 2026</span></li>
 
-                        <li>Camera Ready Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span> July 30, 2026</span></li>
-                        <li>Registration Deadline- <span className='liName'>August 15, 2026</span></li>
-                        <li>Conference Date - <span className='liName'>December 10-12, 2026</span></li>
+                        <li>Camera Ready Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span> September 10, 2026</span></li>
+                        <li>Registration Deadline- <span className='liName'>September 10, 2026</span></li>
+                        <li>Conference Date - <span className='liName'>January 07-09, 2026</span></li>
                     </ul>
                     <ul className="marquee2">
-                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span>June 15, 2026</span></li>
+                        <li>Full Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span>June 30, 2026</span></li>
 
-                        <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> July 15, 2026</span></li>
+                        <li>Acceptance Notification - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del> <span className="text-[#ff0000]"></span> July 31, 2026</span></li>
 
-                        <li>Camera Ready Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span> July 30, 2026</span></li>
-                        <li>Registration Deadline- <span className='liName'>August 15, 2026</span></li>
-                        <li>Conference Date - <span className='liName'>December 10-12, 2026</span></li>
+                        <li>Camera Ready Paper Submission - <span className='liName'><del style={{ textDecoration: "line-through", color: "red" }}><span className="text-black"></span></del><span className="text-[#ff0000]"></span> September 10, 2026</span></li>
+                        <li>Registration Deadline- <span className='liName'>September 10, 2026</span></li>
+                        <li>Conference Date - <span className='liName'>January 07-09, 2026</span></li>
                     </ul>
                 </div>
             </article>
